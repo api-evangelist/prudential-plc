@@ -1,0 +1,383 @@
+aid: prudential-plc
+name: Prudential plc
+review:
+  question: >-
+    Does Prudential plc publish a public, self-serve developer portal with
+    downloadable API specifications, and what is its ACORD posture?
+  answer: false
+  date: '2026-07-25'
+  reviewer: API Evangelist
+  homeMarket: United Kingdom
+  tier: carrier-life-health
+  gated: true
+  openapiHarvested: false
+  specsCount: 0
+findings:
+  summary: |
+    Prudential plc has no public API surface at all. This is not a case of a
+    real developer portal sitting behind a login - there is no developer
+    portal to gate. Every first-party developer hostname probed against the
+    primary domain failed DNS resolution (developer, developers, docs, api,
+    apis, partners, partner, portal, sandbox .prudentialplc.com, all HTTP
+    000), and every conventional developer path on the corporate site
+    returned HTTP 404 (/developers, /api, /developer, /partners,
+    /integrations, /en/api, /en/developers, /en/partners, /en/integrations,
+    /graphql). The corporate site itself is an AEM investor-relations and
+    newsroom property (HTTP 200 at https://www.prudentialplc.com/en/) with
+    457 URLs in its English sitemap, not one of which is an API, developer or
+    integration page. Classification: not (a), not (b), and not even (c) - no
+    developer-facing marketing page exists either.
+
+    HOMONYM TRAP - IMPORTANT FOR THIS RECORD. Searching for "Prudential API"
+    returns a real, working developer portal at https://developers.prudential.com/
+    (HTTP 200), with a partner-gated API portal at
+    https://developer.apis.prudential.com and a PruExchange platform
+    integration programme. NONE of that belongs to this company. WHOIS on
+    prudential.com returns "Registrant Organization: The Prudential Insurance
+    Company of America", and the prudential.com footer resolves to Prudential
+    Financial companies located in Newark, NJ (PICA, Pruco Life, PLAZ, PLNJ,
+    FLIAC). Prudential Financial, Inc. (NYSE: PRU, Newark) and Prudential plc
+    (LSE/HKEX: PRU/2378, London and Hong Kong) are entirely separate
+    companies with no ownership relationship, and their US developer portal
+    must not be attributed here. The api-evangelist network already carries
+    that company separately as prudential-financial.
+
+    A SECOND TRAP: the UK-facing "Pru" brands are no longer this company.
+    Prudential plc demerged its UK and Europe business as M&G plc in October
+    2019 and its US business as Jackson Financial in September 2021, so
+    pru.co.uk, pruadviser.co.uk and Prudential Assurance Company Limited sit
+    with M&G plc. The prudentialplc.com footer still links out to
+    http://www.pru.co.uk/contact-us as a courtesy, which is the only route by
+    which a UK consumer surface appears in this company's estate at all.
+
+    A THIRD, WEAKER TRAP: search surfaces a "Prudential APIM Team - developer
+    portal" at developer-pacs.prudential.com.sg (PACS = Prudential Assurance
+    Company Singapore, which IS part of Prudential plc). That host is dead -
+    the .com.sg name has a stale Imperva/Incapsula CNAME
+    (dgq8gkb.x.incapdns.net) but no resolvable A record and no reachable
+    service (HTTP 000, "Could not resolve host"). It is recorded here as an
+    apparently decommissioned internal/partner APIM portal, not as a live
+    surface, and no API, endpoint or spec from it has been recorded.
+
+    What the group actually does publish is a technology strategy page
+    (https://www.prudentialplc.com/en/about-us/our-strategy/technology/, HTTP
+    200) that is entirely inward-facing: "embedding AI and data into every
+    layer of our organisation", over 100 AI use cases, a global AI Lab, a
+    Responsible AI Framework, and investment in "automation, data, and cloud
+    capabilities". It contains no mention of APIs, open APIs, developer
+    portals, ecosystem integration or data standards. Prudential's actual
+    integration model is distribution, not developers: tied agency forces
+    plus exclusive bancassurance partnerships (Standard Chartered - 25 years,
+    CIMB Thai, MSB and SeABank in Vietnam, Yoma Bank in Myanmar, Bank Syariah
+    Indonesia), and commercial health/wealth partnerships onto the Pulse app
+    (Babylon, Tictrac, Halodoc, PAI Health, Huami, Nervotec, Smarter Health,
+    Prive Technologies, OVO, HReasily, Google Cloud). Every one of those
+    announcements is written in commercial terms - "the partnership with
+    Singapore-based Smarter Health will allow Pulse users to access a
+    directory of specialist doctors" - with no API, SDK, developer programme
+    or technical integration surface described anywhere.
+
+    This is the archetypal life-and-health carrier record the insurance data
+    set exists to capture: a top-tier, multi-listed, 178-year-old insurer with
+    an explicit AI-and-cloud technology strategy and a flagship consumer app,
+    and zero public programmable surface.
+  developerPortal:
+    url: ''
+    httpStatus: null
+    classification: none - no first-party developer portal exists on any resolvable Prudential plc hostname
+    selfServe: false
+    confirmed: false
+    note: >-
+      Do not record https://developers.prudential.com/ against this company.
+      That portal belongs to Prudential Financial, Inc. (Newark, NJ), a
+      separate company, confirmed by WHOIS registrant "The Prudential
+      Insurance Company of America".
+  acordPosture:
+    phrase: no ACORD reference found
+    detail: >-
+      No mention of ACORD, AL3, ACORD XML, "ACORD certified", NGDS or ACORD
+      Data Standards was found anywhere on prudentialplc.com, on the group
+      technology strategy page, or in any Prudential plc newsroom item. No
+      IVANS, agency download, Applied Epic or Vertafore AMS360 reference
+      either - unsurprising, since the group writes no US business after the
+      2021 Jackson demerger and IVANS is a US property-and-casualty agency
+      channel. ACORD does publish Life & Annuity Data Standards and
+      Asia-Pacific standards that would be applicable to this book, but no
+      first-party evidence of Prudential plc implementing them was found.
+    acordReferencedOnDeveloperPortal: false
+    ivansAgencyDownload: not applicable - no US book, no reference found
+  insuranceVerbs:
+    quote: false
+    bind: false
+    issue: false
+    fnol: false
+    audience: none - no public API exposes any insurance verb
+    note: >-
+      Quote, bind, issue and FNOL all happen through tied agents, the
+      myPrudential policyholder self-service portals and apps in each market,
+      and bancassurance partner branch systems. None of those is documented as
+      a programmable interface. The Google Cloud partnership announced in 2024
+      applies generative AI to medical claims adjudication internally
+      ("faster and more frictionless medical claims"), which is an internal
+      process improvement, not an exposed FNOL or claims API.
+  authModel:
+    scheme: none published
+    note: >-
+      No authentication scheme is documented because no API is documented. No
+      API key, OAuth2 client-credentials, OAuth2 authorization-code, mTLS or
+      SAML partner-portal scheme could be attributed from a first-party
+      source.
+    wellKnown:
+    - url: https://www.prudentialplc.com/.well-known/openid-configuration
+      httpStatus: 404
+    - url: https://www.prudentialplc.com/.well-known/oauth-authorization-server
+      httpStatus: 404
+  webhooksAndEvents:
+    found: false
+    asyncapi: false
+    note: No event catalog, webhook documentation or AsyncAPI surface exists. Absence is the finding.
+  postman:
+    firstPartyWorkspace: false
+    note: >-
+      No Prudential plc operated or verified Postman workspace. Postman search
+      for "prudential" returns third-party workspaces such as
+      "PrudentialWatch" (publisher handle jobportaldevs, unverified, created
+      2025-01-08), which is unaffiliated and is not recorded as a company
+      property.
+  graphql:
+    found: false
+    note: https://www.prudentialplc.com/graphql returned HTTP 404. No GraphQL surface.
+  grpc:
+    found: false
+    note: No published .proto files on any Prudential plc property.
+  sandbox:
+    name: null
+    public: false
+    note: No sandbox, test environment or trial credentials are offered publicly.
+  transports:
+  - protocol: REST
+    scheme: https
+    documented: false
+    note: No public REST API, base URL or reference documentation is published.
+  - protocol: SOAP
+    documented: false
+  - protocol: GraphQL
+    documented: false
+    note: /graphql returns HTTP 404.
+  - protocol: WebSocket
+    scheme: wss
+    documented: false
+  - protocol: ACORD messaging
+    documented: false
+    note: No ACORD, AL3 or ACORD XML transport is referenced in any public Prudential plc source.
+  - protocol: Bancassurance and agency distribution
+    documented: true
+    note: >-
+      The real integration channel. Exclusive bank partnerships and tied
+      agency forces, governed by commercial contract. Not developer
+      accessible and not documented as an interface.
+probes:
+- url: https://www.prudentialplc.com/
+  httpStatus: 200
+  note: Redirects to /en/. Corporate AEM site - investor relations, newsroom, strategy. No developer or API section.
+- url: https://developer.prudentialplc.com
+  httpStatus: '000'
+  note: DNS did not resolve.
+- url: https://developers.prudentialplc.com
+  httpStatus: '000'
+  note: DNS did not resolve.
+- url: https://docs.prudentialplc.com
+  httpStatus: '000'
+  note: DNS did not resolve.
+- url: https://api.prudentialplc.com
+  httpStatus: '000'
+  note: DNS did not resolve.
+- url: https://apis.prudentialplc.com
+  httpStatus: '000'
+- url: https://partners.prudentialplc.com
+  httpStatus: '000'
+- url: https://partner.prudentialplc.com
+  httpStatus: '000'
+- url: https://portal.prudentialplc.com
+  httpStatus: '000'
+- url: https://sandbox.prudentialplc.com
+  httpStatus: '000'
+- url: https://www.prudentialplc.com/developers
+  httpStatus: 404
+- url: https://www.prudentialplc.com/api
+  httpStatus: 404
+- url: https://www.prudentialplc.com/developer
+  httpStatus: 404
+- url: https://www.prudentialplc.com/partners
+  httpStatus: 404
+- url: https://www.prudentialplc.com/integrations
+  httpStatus: 404
+- url: https://www.prudentialplc.com/en/api
+  httpStatus: 404
+- url: https://www.prudentialplc.com/en/developers
+  httpStatus: 404
+- url: https://www.prudentialplc.com/en/partners
+  httpStatus: 404
+- url: https://www.prudentialplc.com/en/integrations
+  httpStatus: 404
+- url: https://www.prudentialplc.com/graphql
+  httpStatus: 404
+- url: https://www.prudentialplc.com/robots.txt
+  httpStatus: 200
+  note: Disallows only error, backup and search-result pages. No API or developer paths present.
+- url: https://www.prudentialplc.com/sitemap.xml
+  httpStatus: 200
+  note: >-
+    Sitemap index of four sitemaps. The English sitemap enumerates 457 URLs;
+    grep for api, developer, integration, technology matched only the
+    /about-us/our-strategy/technology/ strategy page and commercial
+    partnership newsroom items. No API or developer page exists.
+- url: https://www.prudentialplc.com/en/about-us/our-strategy/technology/
+  httpStatus: 200
+  note: >-
+    Group technology strategy. AI-first, 100+ AI use cases, global AI Lab,
+    Responsible AI Framework, cloud and automation investment. No mention of
+    APIs, open APIs, developer portals, ACORD or data standards.
+- url: https://developer-pacs.prudential.com.sg
+  httpStatus: '000'
+  note: >-
+    Named in search results as "Home - Prudential APIM Team - developer
+    portal". Stale Imperva/Incapsula CNAME to dgq8gkb.x.incapdns.net with no
+    resolvable A record; curl reports "Could not resolve host". Treated as a
+    decommissioned internal/partner APIM portal for Prudential Assurance
+    Company Singapore. Nothing recorded from it.
+- url: https://developer.prudential.com.sg
+  httpStatus: '000'
+- url: https://developers.prudential.com.sg
+  httpStatus: '000'
+- url: https://api.prudential.com.sg
+  httpStatus: '000'
+- url: https://www.prudential.com.sg
+  httpStatus: 200
+  note: Prudential Singapore consumer site. Grep for "api" and "developer" in the served HTML returned zero matches.
+- url: https://developer.prudential.com.hk
+  httpStatus: '000'
+- url: https://api.prudential.com.hk
+  httpStatus: '000'
+- url: https://www.prudential.com.hk
+  httpStatus: 200
+  note: Prudential Hong Kong consumer site (redirects to /tc/). No developer surface.
+- url: https://developer.prudential.com.my
+  httpStatus: '000'
+- url: https://developer.prudential.co.id
+  httpStatus: '000'
+- url: https://developer.prudential.com.vn
+  httpStatus: '000'
+- url: https://developer.prulifeuk.com.ph
+  httpStatus: '000'
+- url: https://www.pruworks.com
+  httpStatus: 200
+  note: PRUworks SME employee-benefits property. Grep of served HTML for api, developer, integrat returned zero matches.
+- url: https://pruworks.prudential.com.sg
+  httpStatus: '000'
+- url: https://pulse.prudential.com.sg
+  httpStatus: '000'
+- url: https://developer.pulse.prudential.com
+  httpStatus: '000'
+  note: No developer surface for the Pulse by Prudential app.
+- url: https://www.prudentialcorporation-asia.com
+  httpStatus: 200
+  note: Redirects to https://www.prudentialplc.com/en/. Not a separate developer property.
+- url: https://github.com/PrudentialCorporationAsia
+  httpStatus: 200
+  note: >-
+    Real first-party GitHub organization - "This is the GitHub page for public
+    projects created by Prudential Corporation Asia". One public repository,
+    gradle-sassign-plugin, "A Gradle plugin to sign files using Symantec's
+    Secure App Service". No API definitions, SDKs or client libraries.
+- url: https://github.com/prudentialplc
+  httpStatus: 404
+  note: DNS/org does not exist.
+- url: https://developers.prudential.com/
+  httpStatus: 200
+  note: >-
+    NOT THIS COMPANY. Prudential Financial, Inc. (Newark, NJ) developer
+    portal. Recorded only to document the homonym trap.
+specHunt:
+  attempts:
+  - url: https://www.prudentialplc.com/openapi.json
+    httpStatus: 404
+  - url: https://www.prudentialplc.com/openapi.yaml
+    httpStatus: 404
+  - url: https://www.prudentialplc.com/swagger.json
+    httpStatus: 404
+  - url: https://www.prudentialplc.com/api-docs
+    httpStatus: 404
+  - url: https://www.prudentialplc.com/spec
+    httpStatus: 404
+  - url: https://www.prudentialplc.com/redoc
+    httpStatus: 404
+  - url: https://developer-pacs.prudential.com.sg/openapi.json
+    httpStatus: '000'
+    note: Host does not resolve.
+  - url: https://developer-pacs.prudential.com.sg/swagger.json
+    httpStatus: '000'
+    note: Host does not resolve.
+  - url: https://developer-pacs.prudential.com.sg/api-docs
+    httpStatus: '000'
+    note: Host does not resolve.
+  result: >-
+    No OpenAPI, Swagger, AsyncAPI, GraphQL SDL or .proto document exists on
+    any resolvable Prudential plc host. Zero specs saved verbatim; the
+    openapi/ directory is intentionally omitted.
+sources:
+- url: https://www.prudentialplc.com/en/
+  type: Website
+  fetched: '2026-07-25'
+  httpStatus: 200
+  note: >-
+    "For every life, for every future." Serving customers for over 178 years,
+    from London in 1848. Registered in England and Wales; principal Hong Kong
+    office 13th Floor, One International Finance Centre, 1 Harbour View
+    Street, Central. Insurance, asset management (Eastspring), takaful,
+    pensions, Hong Kong Mandatory Provident Funds across Asia and Africa.
+- url: https://www.prudentialplc.com/en/about-us/our-strategy/technology/
+  type: Documentation
+  fetched: '2026-07-25'
+  httpStatus: 200
+  note: >-
+    Inward-facing AI and cloud strategy. No API, open API, developer portal,
+    ecosystem or data-standards language anywhere on the page.
+- url: https://www.prudentialplc.com/en/newsroom/company-news/2021/prudential-expands-its-health-and-wealth-offerings-on-its-pulse-by-prudential-app-with-new-partners/
+  type: PressRelease
+  fetched: '2026-07-25'
+  note: >-
+    Pulse partner onboarding described purely commercially - "The partnership
+    with Singapore-based Smarter Health will allow Pulse users to access a
+    directory of specialist doctors and health screening services." No API,
+    SDK or developer programme mentioned.
+- url: https://www.prudentialplc.com/sitemap.xml
+  type: Sitemap
+  fetched: '2026-07-25'
+  httpStatus: 200
+  note: 457 English URLs; no API, developer or integration page among them.
+- url: https://github.com/PrudentialCorporationAsia
+  type: GitHubOrganization
+  fetched: '2026-07-25'
+  httpStatus: 200
+  note: One public repo, a Gradle code-signing plugin. No API artifacts.
+- url: https://developers.prudential.com/
+  type: Disambiguation
+  fetched: '2026-07-25'
+  httpStatus: 200
+  note: >-
+    Prudential Financial, Inc. (US) developer portal - a DIFFERENT company.
+    WHOIS prudential.com returns "Registrant Organization: The Prudential
+    Insurance Company of America". Recorded so this record is never
+    contaminated by it.
+actions:
+  apisYmlCreated: true
+  openapiDirectoryCreated: false
+  reason: >-
+    Prudential plc is recorded as an honest carrier stub with an empty apis[]
+    array. No public API, no developer portal, no specification and no ACORD
+    reference exists to record, and nothing was fabricated to fill the
+    record. The two homonym traps (Prudential Financial US, and the
+    M&G-owned UK "Pru" brands) are documented explicitly so downstream
+    enrichment and reporting do not attribute another company's API surface
+    to this one.
