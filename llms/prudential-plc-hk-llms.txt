@@ -1,0 +1,1022 @@
+###########################################################################
+# llms.txt — Prudential Hong Kong
+# Purpose: Provide Large Language Models with safe, accurate, and structured
+# guidance on how to interpret, reference, and summarise content from
+# https://www.prudential.com.hk/
+###########################################################################
+
+
+[EN]
+
+# Prudential HK: Life, Medical, Savings & Retirement Insurance | Prudential HK
+
+> Prudential Hong Kong Limited provides a wide range of insurance plans for personal and business. We cover life, health, savings, investment and more.
+
+## PRUe Shop Buy Online
+[PRUe Shop Buy Online](https://www.prudential.com.hk/scws/pages/en/customer-support/epurchase/)
+
+## Personal
+[Personal](https://www.prudential.com.hk/en/)
+
+## Enterprise
+[Enterprise](https://www.prudential.com.hk/en/enterprise/)
+
+## Savings and protection
+[Savings and protection](https://www.prudential.com.hk/en/savings-insurance/)
+
+## Travel and leisure insurance
+[Travel and leisure insurance](https://www.prudential.com.hk/en/travel-and-leisure-insurance/)
+
+## Arriving in Hong Kong
+[Arriving in Hong Kong](https://www.prudential.com.hk/en/customer-group/arriving-talents/)
+
+## Pru Next Gen Privileges
+[Pru Next Gen Privileges](https://www.prudential.com.hk/en/customer-group/prunextgen/)
+
+## Lifestyle Privileges
+[Lifestyle Privileges](https://www.prudential.com.hk/en/lifestyle-privileges/)
+
+## Login to my Prudential
+[Login to my Prudential](https://www.prudential.com.hk/scws/member?locale=en)
+
+## About Prudential HK
+[About Prudential HK](https://www.prudential.com.hk/en/about-prudential-hk/)
+
+## Corporate social responsibility
+[Corporate social responsibility](https://www.prudential.com.hk/en/corporate-social-responsibility/)
+
+## Careers
+[Careers](https://www.prudential.com.hk/en/corporate-careers/)
+
+## Become a Prudential agent
+[Become a Prudential agent](https://www.prudential.com.hk/en/be-a-prudential-agent/)
+
+## Health and wellness articles
+[Health and wellness articles](https://www.prudential.com.hk/en/we-do/health-and-wellness-articles/)
+
+## Cancer burden & prevention in Southeast Asia
+[Cancer burden & prevention in Southeast Asia](https://www.prudential.com.hk/en/we-do/cancer-burden-prevention-for-se-asia/)
+
+## Healthy eating guide
+[Healthy eating guide](https://www.prudential.com.hk/en/we-do/healthy-eating-guide/)
+
+## How does blood sugar level affect health?
+[How does blood sugar level affect health?](https://www.prudential.com.hk/en/we-do/how-does-blood-sugar-level-affect-health/)
+
+## How close are we to COVID-19 vaccine?
+[How close are we to COVID-19 vaccine?](https://www.prudential.com.hk/en/we-do/how-close-are-we-to-covid-19-vaccine/)
+
+## Always Listening
+[Always Listening](https://www.prudential.com.hk/en/always-listening/)
+
+## Contact
+[Contact](https://www.prudential.com.hk/en/contact/)
+
+## Newsroom
+[Newsroom](https://www.prudential.com.hk/en/newsroom/)
+
+## All news
+[All news](https://www.prudential.com.hk/en/all-news/)
+
+## Life insurance
+[Life insurance](https://www.prudential.com.hk/en/life-insurance/)
+
+## Life protection
+[Life protection](https://www.prudential.com.hk/en/life-insurance/life-protection/)
+
+## PRUlife Protector II
+[PRUlife Protector II](https://www.prudential.com.hk/en/life-insurance/life-protection/prulife-protector-ii/)
+
+## PRUterm Family Protector
+[PRUterm Family Protector](https://www.prudential.com.hk/en/life-insurance/life-protection/pruterm-family-protector/)
+
+## LiveFree Protector
+[LiveFree Protector](https://www.prudential.com.hk/en/life-insurance/life-protection/livefree-protector/)
+
+## Legacy planning
+[Legacy planning](https://www.prudential.com.hk/en/life-insurance/legacy-planning/)
+
+## Prime Vantage Protector
+[Prime Vantage Protector](https://www.prudential.com.hk/en/life-insurance/legacy-planning/prime-vantage-protector/)
+
+## Policy Reverse Mortgage Programme
+[Policy Reverse Mortgage Programme](https://www.prudential.com.hk/en/life-insurance/policy-reverse-mortgage-programme/)
+
+## Health insurance
+[Health insurance](https://www.prudential.com.hk/en/health-insurance/)
+
+## Medical plans
+[Medical plans](https://www.prudential.com.hk/en/health-insurance/medical/)
+
+## PRUHealth CoreChoice Medical Plan
+[PRUHealth CoreChoice Medical Plan](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/pruhealth-corechoice-medical-plan/)
+
+## PRUHealth FlexiChoice Medical Plan
+[PRUHealth FlexiChoice Medical Plan](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/pruhealth-flexichoice-medical-plan/)
+
+## PRUHealth VHIS VIP Plan
+[PRUHealth VHIS VIP Plan](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/pruhealth-vhis-vip-plan/)
+
+## PRUHealth VHIS EasyChoice Plan
+[PRUHealth VHIS EasyChoice Plan](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/pruhealth-vhis-easychoice-plan/)
+
+## PRUHealth VHIS Series Overview
+[PRUHealth VHIS Series Overview](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/)
+
+## VHIS tax deduction
+[VHIS tax deduction](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/vhis-tax-deduction/)
+
+## VHIS migration from an existing plan
+[VHIS migration from an existing plan](https://www.prudential.com.hk/en/health-insurance/medical/prudential-VHIS-series/vhis-migration-from-an-existing-plan/)
+
+## PRUHealth Secure Top-up Plan
+[PRUHealth Secure Top-up Plan](https://www.prudential.com.hk/en/health-insurance/medical/pruhealth-secure-top-up-plan/)
+
+## PRUMyHealth Prestige Medical Plan
+[PRUMyHealth Prestige Medical Plan](https://www.prudential.com.hk/en/health-insurance/medical/prumyhealth-prestige-medical-plan/)
+
+## PRUMed Lifelong Care Plan
+[PRUMed Lifelong Care Plan](https://www.prudential.com.hk/en/health-insurance/medical/prumed-lifelong-care-plan/)
+
+## PRUHealth Essential Critical Care
+[PRUHealth Essential Critical Care](https://www.prudential.com.hk/en/health-insurance/medical/pruhealth-essential-critical-care/)
+
+## PRUChoice Clinic
+[PRUChoice Clinic](https://www.prudential.com.hk/en/health-insurance/medical/pruchoice-clinic/)
+
+## PRUChoice HealthCheck Series
+[PRUChoice HealthCheck Series](https://www.prudential.com.hk/en/health-insurance/medical/pruchoice-healthcheck-series/)
+
+## Critical illness protection
+[Critical illness protection](https://www.prudential.com.hk/en/health-insurance/critical-illness/)
+
+## PRUHealth Critical Illness Term II
+[PRUHealth Critical Illness Term II](https://www.prudential.com.hk/en/health-insurance/critical-illness/pruhealth-critical-illness-term-ii/)
+
+## PRUHealth Critical Illness Extended Care III
+[PRUHealth Critical Illness Extended Care III](https://www.prudential.com.hk/en/health-insurance/critical-illness/pruhealth-critical-illness-extended-care-iii/)
+
+## PRUHealth Guardian Critical Illness Plan Series
+[PRUHealth Guardian Critical Illness Plan Series](https://www.prudential.com.hk/en/health-insurance/critical-illness/pruhealth-guardian-critical-illness-plan-series/)
+
+## EasyWell Critical Illness Protector
+[EasyWell Critical Illness Protector](https://www.prudential.com.hk/en/health-insurance/critical-illness/easywell-critical-illness-protector/)
+
+## PRUCancer 360
+[PRUCancer 360](https://www.prudential.com.hk/en/health-insurance/critical-illness/prucancer-360/)
+
+## Accident & disability protection
+[Accident & disability protection](https://www.prudential.com.hk/en/health-insurance/accident-disability/)
+
+## PRUChoice Personal Accident Series
+[PRUChoice Personal Accident Series](https://www.prudential.com.hk/en/health-insurance/accident-disability/pruchoice-personal-accident-series/)
+
+## PRUChoice Relocation Care
+[PRUChoice Relocation Care](https://www.prudential.com.hk/en/health-insurance/accident-disability/pruchoice-relocation-care/)
+
+## PRUCare Accident Cover Series
+[PRUCare Accident Cover Series](https://www.prudential.com.hk/en/health-insurance/accident-disability/prucare-accident-cover-series/)
+
+## Savings insurance
+[Savings insurance](https://www.prudential.com.hk/en/savings-insurance/)
+
+## Whole life savings
+[Whole life savings](https://www.prudential.com.hk/en/savings-insurance/whole-life-savings/)
+
+## Evergreen Wealth Protector
+[Evergreen Wealth Protector](https://www.prudential.com.hk/en/savings-insurance/whole-life-savings/evergreen-wealth-protector/)
+
+## Evergreen Growth Saver Plus II
+[Evergreen Growth Saver Plus II](https://www.prudential.com.hk/en/savings-insurance/whole-life-savings/evergreen-growth-saver-plus-ii/)
+
+## Evergreen Wealth Multi-Currency Plan
+[Evergreen Wealth Multi-Currency Plan](https://www.prudential.com.hk/en/savings-insurance/whole-life-savings/evergreen-wealth-multi-currency-plan/)
+
+## Regular income savings
+[Regular income savings](https://www.prudential.com.hk/en/savings-insurance/regular-income/)
+
+## PRUlife Coupon Saver
+[PRUlife Coupon Saver](https://www.prudential.com.hk/en/savings-insurance/regular-income/prulife-coupon-saver/)
+
+## Evergreen Wealth Income
+[Evergreen Wealth Income](https://www.prudential.com.hk/en/savings-insurance/regular-income/evergreen-wealth-income/)
+
+## Evergreen Wealth Income Plus
+[Evergreen Wealth Income Plus](https://www.prudential.com.hk/en/savings-insurance/regular-income/evergreen-wealth-income-plus/)
+
+## Education funding
+[Education funding](https://www.prudential.com.hk/en/savings-insurance/education-funding/)
+
+## PRUlife HeadStart Saver Series
+[PRUlife HeadStart Saver Series](https://www.prudential.com.hk/en/savings-insurance/education-funding/prulife-headstart-saver-series/)
+
+## Retirement planning
+[Retirement planning](https://www.prudential.com.hk/en/savings-insurance/retirement-planning/)
+
+## PRURetirement Deferred Annuity Plan
+[PRURetirement Deferred Annuity Plan](https://www.prudential.com.hk/en/savings-insurance/retirement-planning/pruretirement-deferred-annuity-plan/)
+
+## Wealth Series (overview)
+[Wealth Series](https://www.prudential.com.hk/en/wealth-series/)
+
+## Wealth Appreciation
+[Wealth Appreciation](https://www.prudential.com.hk/en/wealth-series/wealth-appreciation/)
+
+## Wealth Protection
+[Wealth Protection](https://www.prudential.com.hk/en/wealth-series/wealth-protection/)
+
+## Wealth Succession
+[Wealth Succession](https://www.prudential.com.hk/en/wealth-series/wealth-succession/)
+
+## Investment-linked insurance
+[Investment-linked insurance](https://www.prudential.com.hk/en/investment-linked-insurance/)
+
+## Market updates for investment-linked insurance
+[Market updates for investment-linked insurance](https://www.prudential.com.hk/en/investment-linked-insurance/market-updates/)
+
+## Home insurance
+[Home insurance](https://www.prudential.com.hk/en/home-insurance/)
+
+## PRUChoice Home Series
+[PRUChoice Home Series](https://www.prudential.com.hk/en/home-insurance/pruchoice-home-series/)
+
+## PRUChoice Home Landlord
+[PRUChoice Home Landlord](https://www.prudential.com.hk/en/home-insurance/pruchoice-home-landlord/)
+
+## PRUChoice Home Decoration
+[PRUChoice Home Decoration](https://www.prudential.com.hk/en/home-insurance/pruchoice-home-decoration/)
+
+## PRUChoice Furkid Care Insurance
+[PRUChoice Furkid Care Insurance](https://www.prudential.com.hk/en/home-insurance/pruchoice-furkid-care-insurance/)
+
+## Leisure insurance
+[Leisure insurance](https://www.prudential.com.hk/en/leisure-insurance/)
+
+## PRUChoice Motor
+[PRUChoice Motor](https://www.prudential.com.hk/en/leisure-insurance/pruchoice-motor/)
+
+## PRUChoice Golfers
+[PRUChoice Golfers](https://www.prudential.com.hk/en/leisure-insurance/pruchoice-golfers/)
+
+## PRUChoice Hong Kong Study Care
+[PRUChoice Hong Kong Study Care](https://www.prudential.com.hk/en/leisure-insurance/pruchoice-hong-kong-study-care/)
+
+## PRUChoice Card Protection Plus
+[PRUChoice Card Protection Plus](https://www.prudential.com.hk/en/leisure-insurance/pruchoice-card-protection-plus/)
+
+## Travel insurance
+[Travel insurance](https://www.prudential.com.hk/en/travel-insurance/)
+
+## PRUChoice Travel Series
+[PRUChoice Travel Series](https://www.prudential.com.hk/en/travel-insurance/pruchoice-travel-series/)
+
+## PRUChoice Travel – Working Holiday
+[PRUChoice Travel – Working Holiday](https://www.prudential.com.hk/en/travel-insurance/pruchoice-travel-working-holiday/)
+
+## PRUChoice Travel Overseas Study
+[PRUChoice Travel Overseas Study](https://www.prudential.com.hk/en/travel-insurance/pruchoice-travel-overseas-study/)
+
+## Travel and leisure insurance (overview)
+[Travel and leisure insurance](https://www.prudential.com.hk/en/travel-and-leisure-insurance/)
+
+## Customer groups – Arriving talents
+[Arriving talents](https://www.prudential.com.hk/en/customer-group/arriving-talents/)
+
+## Pru Next Gen
+[Pru Next Gen](https://www.prudential.com.hk/en/customer-group/prunextgen/)
+
+## Lifestyle privileges
+[Lifestyle privileges](https://www.prudential.com.hk/en/lifestyle-privileges/)
+
+## Family with kids
+[Family with kids](https://www.prudential.com.hk/en/family-with-kids/)
+
+## Getting married
+[Getting married](https://www.prudential.com.hk/en/getting-married/)
+
+## Career starter
+[Career starter](https://www.prudential.com.hk/en/career-starter/)
+
+## Retirement
+[Retirement](https://www.prudential.com.hk/en/retirement/)
+
+## Enterprise solutions overview
+[Enterprise](https://www.prudential.com.hk/en/enterprise/)
+
+## Business protection
+[Business protection](https://www.prudential.com.hk/en/enterprise/business-protection/)
+
+## PRUChoice Office Insurance
+[PRUChoice Office Insurance](https://www.prudential.com.hk/en/enterprise/business-protection/pruchoice-office-insurance/)
+
+## PRUChoice Shop Insurance
+[PRUChoice Shop Insurance](https://www.prudential.com.hk/en/enterprise/business-protection/pruchoice-shop-insurance/)
+
+## For your employees
+[For your employees](https://www.prudential.com.hk/en/enterprise/for-your-employees/)
+
+## PRUChoice Group Life Assurance
+[PRUChoice Group Life Assurance](https://www.prudential.com.hk/en/enterprise/for-your-employees/pruchoice-group-life-assurance/)
+
+## PRUChoice Group Medical Insurance
+[PRUChoice Group Medical Insurance](https://www.prudential.com.hk/en/enterprise/for-your-employees/pruchoice-group-medical-insurance/)
+
+## MPF Scheme
+[MPF Scheme](https://www.prudential.com.hk/en/enterprise/for-your-employees/mpf-scheme/)
+
+## PRUWorks
+[PRUWorks](https://www.prudential.com.hk/en/enterprise/pruworks/)
+
+## Claims support – Overview
+[Claims support](https://www.prudential.com.hk/en/claims-support/)
+
+## File a claim – overview
+[File a claim](https://www.prudential.com.hk/en/claims-support/file-claim/)
+
+## File a claim – death
+[File a claim – death](https://www.prudential.com.hk/en/claims-support/file-claim/death/)
+
+## File a claim – accident & disability
+[File a claim – accident & disability](https://www.prudential.com.hk/en/claims-support/file-claim/accident-disability/)
+
+## File a claim – critical illness & lady protection
+[File a claim – critical illness & lady protection](https://www.prudential.com.hk/en/claims-support/file-claim/critical-illness-lady-protection/)
+
+## Worldwide emergency service
+[Worldwide emergency service](https://www.prudential.com.hk/en/claims-support/worldwide-emergency-service/)
+
+## Medical expenses direct billing service
+[Medical expenses direct billing service](https://www.prudential.com.hk/en/claims-support/medical-expenses-direct-billing-service/)
+
+## Treatment Sure
+[Treatment Sure](https://www.prudential.com.hk/en/claims-support/treatment-sure/)
+
+## Check investment performance – Market updates
+[Market updates](https://www.prudential.com.hk/en/claims-support/check-investment-performance/market-updates/)
+
+## Investment mix
+[Investment mix](https://www.prudential.com.hk/en/claims-support/investment-mix/)
+
+## Understand total cash value ratios
+[Understand total cash value ratios](https://www.prudential.com.hk/en/claims-support/understand-total-cash-value-ratios/)
+
+## Claims promise
+[Claims promise](https://www.prudential.com.hk/en/claims-support/claims-promise/)
+
+## Green channel
+[Green channel](https://www.prudential.com.hk/en/claims-support/green-channel/)
+
+## Bangkok Dusit Medical Services
+[Bangkok Dusit Medical Services](https://www.prudential.com.hk/en/claims-support/bangkok-dusit-medical-services/)
+
+## Satellite medical examination
+[Satellite medical examination](https://www.prudential.com.hk/en/claims-support/satellite-medical-examination/)
+
+## VHIS supplementary information
+[VHIS supplementary information](https://www.prudential.com.hk/en/claims-support/vhis-supplementary-info/)
+
+## Customer notices – overview
+[Customer notices](https://www.prudential.com.hk/en/claims-support/customer-notices/)
+
+## Security alerts
+[Security alerts](https://www.prudential.com.hk/en/claims-support/customer-notices/security-alerts/)
+
+## Update on demerger
+[Update on demerger](https://www.prudential.com.hk/en/claims-support/customer-notices/update-on-demerger/)
+
+## Information for PRUWealth / PRUAsset policy holders
+[Information for PRUWealth / PRUAsset policy holders](https://www.prudential.com.hk/en/claims-support/customer-notices/information-for-pruwealth-pruasset-policy-holders/)
+
+## Regulatory information
+[Regulatory information](https://www.prudential.com.hk/en/claims-support/customer-notices/regulatory-information/)
+
+## Notice about the operation hours of Customer Service Centre in TST
+[Notice about the operation hours of Customer Service Centre in TST](https://www.prudential.com.hk/en/claims-support/customer-notices/notice-about-the-operation-hours-of-customer-service-centre-in-tst/)
+
+## Policy payment – overview
+[Policy payment](https://www.prudential.com.hk/en/claims-support/policy-payment/)
+
+## Pay for life insurance
+[Pay for life insurance](https://www.prudential.com.hk/en/claims-support/policy-payment/pay-for-life-insurance/)
+
+## Pay for general insurance
+[Pay for general insurance](https://www.prudential.com.hk/en/claims-support/policy-payment/pay-for-general-insurance/)
+
+## SmartAppoint service
+[SmartAppoint service](https://www.prudential.com.hk/en/claims-support/policy-payment/smartappoint-service/)
+
+## myPrudential – overview
+[myPrudential](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/)
+
+## myPrudential – video demo
+[myPrudential – video demo](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/video-demo/)
+
+## myPrudential self-service – change payment mode
+[Change payment mode](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/change-payment-mode/)
+
+## myPrudential self-service – change payment method
+[Change payment method](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/change-payment-method/)
+
+## myPrudential self-service – update contact info
+[Update contact info](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/update-contact-info/)
+
+## myPrudential self-service – apply loan
+[Apply loan](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/apply-loan/)
+
+## myPrudential self-service – change premium allocation
+[Change premium allocation](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/change-premium-allocation/)
+
+## myPrudential self-service – switch existing investment choice
+[Switch existing investment choice](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/switch-existing-investment-choice/)
+
+## myPrudential self-service – appoint beneficiary
+[Appoint beneficiary](https://www.prudential.com.hk/en/claims-support/policy-payment/myprudential/self-service/appoint-beneficiary/)
+
+## Macau – claims support overview
+[Macau – File a claim](https://www.prudential.com.hk/en/macau/claims-support/file-claim/)
+
+## Macau – File a claim – death
+[Macau – File a claim – death](https://www.prudential.com.hk/en/macau/claims-support/file-claim/death/)
+
+## Macau – File a claim – critical illness protection
+[Macau – File a claim – critical illness protection](https://www.prudential.com.hk/en/macau/claims-support/file-claim/critical-illness-protection/)
+
+## Macau – Claims promise
+[Macau – Claims promise](https://www.prudential.com.hk/en/macau/claims-support/claims-promise/)
+
+## Macau – Policy payment – PRUServices
+[Macau – PRUServices](https://www.prudential.com.hk/en/macau/claims-support/policy-payment/pruservices/)
+
+## Macau – Pay for life insurance
+[Macau – Pay for life insurance](https://www.prudential.com.hk/en/macau/claims-support/policy-payment/pay-for-life-insurance/)
+
+## Macau – Worldwide emergency service
+[Macau – Worldwide emergency service](https://www.prudential.com.hk/en/macau/claims-support/worldwide-emergency-service/)
+
+## Macau – Downloads
+[Macau – Downloads](https://www.prudential.com.hk/en/macau/claims-support/downloads/)
+
+## Performance – Fulfillment ratio (EN)
+[Fulfillment ratio – EN](https://www.prudential.com.hk/performance/fulfillment-ratio/en/)
+
+## Performance – Total cash value ratio (EN)
+[Total cash value ratio – EN](https://www.prudential.com.hk/performance/total-cash-value-ratio/en/)
+
+## Performance – General crediting interest ratio (EN)
+[General crediting interest ratio – EN](https://www.prudential.com.hk/performance/general-crediting-interest-ratio/en/)
+
+## Investment choice performance (EN)
+[Latest investment choice performance – EN](https://www.prudential.com.hk/scws/pages/en/plan-for-life/investment/latest-investment-choice-performance/index.html)
+
+## Exchange rates (EN)
+[Exchange rates – EN](https://www.prudential.com.hk/scws/pages/en/plan-for-life/investment/exchange-rates-hk/)
+
+## Tax calculator (EN)
+[Tax calculator – EN](https://www.prudential.com.hk/scws/pages/en/tax-calculator/)
+
+## Customer support – Find a hospital (life insurance policyowners – EN)
+[Find a hospital – life insurance – EN](https://www.prudential.com.hk/scws/pages/en/customer-support/find-a-hospital/for-life-insurance-policyowners/index.html)
+
+## Customer support – Find a hospital (general insurance policyowners – EN)
+[Find a hospital – general insurance – EN](https://www.prudential.com.hk/scws/pages/en/customer-support/find-a-hospital/for-general-insurance-policyowners/index.html)
+
+## ePurchase (EN)
+[ePurchase – EN](https://www.prudential.com.hk/scws/pages/en/customer-support/epurchase/)
+
+## Make an appointment (EN)
+[Make an appointment](https://www.prudential.com.hk/scws/pages/en/contact-us/make-appointment/index.html?prom_cd=cws-footer)
+
+## China Personal Information Protection Law (EN)
+[China Personal Information Protection Law – EN](https://www.prudential.com.hk/en/china-personal-information-protection-law/)
+
+## Privacy policy
+[Privacy policy](https://www.prudential.com.hk/en/privacy-policy/)
+
+## Disclaimer and intellectual property rights
+[Disclaimer and intellectual property rights](https://www.prudential.com.hk/en/disclaimer-intellectual-property-rights/)
+
+## Regulatory disclosures
+[Regulatory disclosures](https://www.prudential.com.hk/en/claims-support/customer-notices/regulatory-information/)
+
+## Security alerts
+[Security alerts](https://www.prudential.com.hk/en/claims-support/customer-notices/security-alerts/)
+
+## Report a Security Issue
+[Report a Security Issue](https://vdp.prudentialcorporation-asia.com/)
+
+## Personal Information Collection Statement
+[Personal Information Collection Statement](https://www.prudential.com.hk/en/personal-information-collection-statement/)
+
+## Prudential Group
+[Prudential Group](https://www.prudentialplc.com/en/)
+
+## Make an appointment
+[Make an appointment](https://www.prudential.com.hk/scws/pages/en/contact-us/make-appointment/index.html?prom_cd=cws-footer)
+
+
+[ZH-HK]
+
+# 保誠香港：人壽、醫療、危疾、退休等保險產品 | 保誠香港
+
+> 保誠保險有限公司為個人及企業提供一系列保險計劃，覆蓋生活、健康、儲蓄、投資等。
+
+## PRUe Shop 網上投保
+[PRUe Shop 網上投保](https://www.prudential.com.hk/scws/pages/tc/customer-support/epurchase/epurchase-home/index.html)
+
+## 個人保險
+[個人保險](https://www.prudential.com.hk/tc/)
+
+## 企業方案
+[企業方案](https://www.prudential.com.hk/tc/enterprise/)
+
+## 儲蓄及保障
+[儲蓄及保障](https://www.prudential.com.hk/tc/savings-insurance/)
+
+## 旅遊及消閒保險
+[旅遊及消閒保險](https://www.prudential.com.hk/tc/travel-and-leisure-insurance/)
+
+## 到港人才生活支援
+[到港人才生活支援](https://www.prudential.com.hk/tc/customer-group/arriving-talents/)
+
+## Pru Next Gen專屬禮遇
+[Pru Next Gen專屬禮遇](https://www.prudential.com.hk/tc/customer-group/prunextgen/)
+
+## 專屬禮遇
+[專屬禮遇](https://www.prudential.com.hk/tc/lifestyle-privileges/)
+
+## 登入my Prudential
+[登入my Prudential](https://www.prudential.com.hk/scws/member?locale=zh_TW)
+
+## 關於保誠香港
+[關於保誠香港](https://www.prudential.com.hk/tc/about-prudential-hk/)
+
+## 企業社會責任
+[企業社會責任](https://www.prudential.com.hk/tc/corporate-social-responsibility/)
+
+## 企業招聘
+[企業招聘](https://www.prudential.com.hk/tc/corporate-careers/)
+
+## 成為保誠財務顧問
+[成為保誠財務顧問](https://www.prudential.com.hk/tc/be-a-prudential-agent/)
+
+## We Do 品牌
+[We Do 品牌](https://www.prudential.com.hk/tc/we-do/)
+
+## 健康與生活資訊文章
+[健康與生活資訊文章](https://www.prudential.com.hk/tc/we-do/health-and-wellness-articles/)
+
+## 東南亞癌症負擔與預防
+[東南亞癌症負擔與預防](https://www.prudential.com.hk/tc/we-do/cancer-burden-prevention-for-se-asia/)
+
+## 健康飲食指南
+[健康飲食指南](https://www.prudential.com.hk/tc/we-do/healthy-eating-guide/)
+
+## 血糖水平與健康
+[血糖水平與健康](https://www.prudential.com.hk/tc/we-do/how-does-blood-sugar-level-affect-health/)
+
+## 距離新冠疫苗有多近？
+[距離新冠疫苗有多近？](https://www.prudential.com.hk/tc/we-do/how-close-are-we-to-covid-19-vaccine/)
+
+## 永遠聆聽 Always Listening
+[永遠聆聽 Always Listening](https://www.prudential.com.hk/tc/always-listening/)
+
+## 聯絡我們
+[聯絡我們](https://www.prudential.com.hk/tc/contact/)
+
+## 新聞中心
+[新聞中心](https://www.prudential.com.hk/tc/newsroom/)
+
+## 所有新聞稿
+[所有新聞稿](https://www.prudential.com.hk/tc/all-news/)
+
+## 人壽保險
+[人壽保險](https://www.prudential.com.hk/tc/life-insurance/)
+
+## 人壽保障
+[人壽保障](https://www.prudential.com.hk/tc/life-insurance/life-protection/)
+
+## PRUlife Protector II
+[PRUlife Protector II](https://www.prudential.com.hk/tc/life-insurance/life-protection/prulife-protector-ii/)
+
+## PRUterm Family Protector
+[PRUterm Family Protector](https://www.prudential.com.hk/tc/life-insurance/life-protection/pruterm-family-protector/)
+
+## LiveFree Protector
+[LiveFree Protector](https://www.prudential.com.hk/tc/life-insurance/life-protection/livefree-protector/)
+
+## 傳承規劃
+[傳承規劃](https://www.prudential.com.hk/tc/life-insurance/legacy-planning/)
+
+## Prime Vantage Protector
+[Prime Vantage Protector](https://www.prudential.com.hk/tc/life-insurance/legacy-planning/prime-vantage-protector/)
+
+## 保單逆按揭計劃
+[保單逆按揭計劃](https://www.prudential.com.hk/tc/life-insurance/policy-reverse-mortgage-programme/)
+
+## 醫療及健康保險
+[醫療及健康保險](https://www.prudential.com.hk/tc/health-insurance/)
+
+## 醫療保障
+[醫療保障](https://www.prudential.com.hk/tc/health-insurance/medical/)
+
+## PRUHealth CoreChoice 醫療計劃
+[PRUHealth CoreChoice 醫療計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/pruhealth-corechoice-medical-plan/)
+
+## PRUHealth FlexiChoice 醫療計劃
+[PRUHealth FlexiChoice 醫療計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/pruhealth-flexichoice-medical-plan/)
+
+## PRUHealth VHIS VIP 計劃
+[PRUHealth VHIS VIP 計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/pruhealth-vhis-vip-plan/)
+
+## PRUHealth VHIS EasyChoice 計劃
+[PRUHealth VHIS EasyChoice 計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/pruhealth-vhis-easychoice-plan/)
+
+## VHIS 系列總覽
+[VHIS 系列總覽](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/)
+
+## VHIS 稅務扣減
+[VHIS 稅務扣減](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/vhis-tax-deduction/)
+
+## 從現有醫療計劃轉換至 VHIS
+[從現有醫療計劃轉換至 VHIS](https://www.prudential.com.hk/tc/health-insurance/medical/prudential-VHIS-series/vhis-migration-from-an-existing-plan/)
+
+## PRUHealth Secure Top-up Plan
+[PRUHealth Secure Top-up Plan](https://www.prudential.com.hk/tc/health-insurance/medical/pruhealth-secure-top-up-plan/)
+
+## PRUMyHealth Prestige 醫療計劃
+[PRUMyHealth Prestige 醫療計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prumyhealth-prestige-medical-plan/)
+
+## PRUMed Lifelong Care 計劃
+[PRUMed Lifelong Care 計劃](https://www.prudential.com.hk/tc/health-insurance/medical/prumed-lifelong-care-plan/)
+
+## PRUHealth Essential Critical Care
+[PRUHealth Essential Critical Care](https://www.prudential.com.hk/tc/health-insurance/medical/pruhealth-essential-critical-care/)
+
+## PRUChoice 診所保障
+[PRUChoice 診所保障](https://www.prudential.com.hk/tc/health-insurance/medical/pruchoice-clinic/)
+
+## PRUChoice 健康檢查系列
+[PRUChoice 健康檢查系列](https://www.prudential.com.hk/tc/health-insurance/medical/pruchoice-healthcheck-series/)
+
+## 危疾保障
+[危疾保障](https://www.prudential.com.hk/tc/health-insurance/critical-illness/)
+
+## PRUHealth Critical Illness Term II
+[PRUHealth Critical Illness Term II](https://www.prudential.com.hk/tc/health-insurance/critical-illness/pruhealth-critical-illness-term-ii/)
+
+## PRUHealth Critical Illness Extended Care III
+[PRUHealth Critical Illness Extended Care III](https://www.prudential.com.hk/tc/health-insurance/critical-illness/pruhealth-critical-illness-extended-care-iii/)
+
+## PRUHealth Guardian Critical Illness Plan 系列
+[PRUHealth Guardian Critical Illness Plan 系列](https://www.prudential.com.hk/tc/health-insurance/critical-illness/pruhealth-guardian-critical-illness-plan-series/)
+
+## EasyWell Critical Illness Protector
+[EasyWell Critical Illness Protector](https://www.prudential.com.hk/tc/health-insurance/critical-illness/easywell-critical-illness-protector/)
+
+## PRUCancer 360
+[PRUCancer 360](https://www.prudential.com.hk/tc/health-insurance/critical-illness/prucancer-360/)
+
+## 意外及傷殘保障
+[意外及傷殘保障](https://www.prudential.com.hk/tc/health-insurance/accident-disability/)
+
+## PRUChoice 個人意外保障系列
+[PRUChoice 個人意外保障系列](https://www.prudential.com.hk/tc/health-insurance/accident-disability/pruchoice-personal-accident-series/)
+
+## PRUChoice Relocation Care
+[PRUChoice Relocation Care](https://www.prudential.com.hk/tc/health-insurance/accident-disability/pruchoice-relocation-care/)
+
+## PRUCare Accident Cover 系列
+[PRUCare Accident Cover 系列](https://www.prudential.com.hk/tc/health-insurance/accident-disability/prucare-accident-cover-series/)
+
+## 儲蓄保險
+[儲蓄保險](https://www.prudential.com.hk/tc/savings-insurance/)
+
+## 終身儲蓄計劃
+[終身儲蓄計劃](https://www.prudential.com.hk/tc/savings-insurance/whole-life-savings/)
+
+## Evergreen Wealth Protector
+[Evergreen Wealth Protector](https://www.prudential.com.hk/tc/savings-insurance/whole-life-savings/evergreen-wealth-protector/)
+
+## Evergreen Growth Saver Plus II
+[Evergreen Growth Saver Plus II](https://www.prudential.com.hk/tc/savings-insurance/whole-life-savings/evergreen-growth-saver-plus-ii/)
+
+## Evergreen Wealth Multi-Currency Plan
+[Evergreen Wealth Multi-Currency Plan](https://www.prudential.com.hk/tc/savings-insurance/whole-life-savings/evergreen-wealth-multi-currency-plan/)
+
+## 定期入息儲蓄
+[定期入息儲蓄](https://www.prudential.com.hk/tc/savings-insurance/regular-income/)
+
+## PRUlife Coupon Saver
+[PRUlife Coupon Saver](https://www.prudential.com.hk/tc/savings-insurance/regular-income/prulife-coupon-saver/)
+
+## Evergreen Wealth Income
+[Evergreen Wealth Income](https://www.prudential.com.hk/tc/savings-insurance/regular-income/evergreen-wealth-income/)
+
+## Evergreen Wealth Income Plus
+[Evergreen Wealth Income Plus](https://www.prudential.com.hk/tc/savings-insurance/regular-income/evergreen-wealth-income-plus/)
+
+## 教育儲蓄
+[教育儲蓄](https://www.prudential.com.hk/tc/savings-insurance/education-funding/)
+
+## PRUlife HeadStart Saver 系列
+[PRUlife HeadStart Saver 系列](https://www.prudential.com.hk/tc/savings-insurance/education-funding/prulife-headstart-saver-series/)
+
+## 退休儲蓄
+[退休儲蓄](https://www.prudential.com.hk/tc/savings-insurance/retirement-planning/)
+
+## PRURetirement Deferred Annuity Plan
+[PRURetirement Deferred Annuity Plan](https://www.prudential.com.hk/tc/savings-insurance/retirement-planning/pruretirement-deferred-annuity-plan/)
+
+## 財富系列總覽
+[財富系列](https://www.prudential.com.hk/tc/wealth-series/)
+
+## 財富增值
+[財富增值](https://www.prudential.com.hk/tc/wealth-series/wealth-appreciation/)
+
+## 財富保障
+[財富保障](https://www.prudential.com.hk/tc/wealth-series/wealth-protection/)
+
+## 財富傳承
+[財富傳承](https://www.prudential.com.hk/tc/wealth-series/wealth-succession/)
+
+## 投資相連保險
+[投資相連保險](https://www.prudential.com.hk/tc/investment-linked-insurance/)
+
+## 投資相連保單市場資訊
+[投資相連保單市場資訊](https://www.prudential.com.hk/tc/investment-linked-insurance/market-updates/)
+
+## 家居及寵物保險
+[家居及寵物保險](https://www.prudential.com.hk/tc/home-insurance/)
+
+## PRUChoice 家居保險系列
+[PRUChoice 家居保險系列](https://www.prudential.com.hk/tc/home-insurance/pruchoice-home-series/)
+
+## PRUChoice 家居業主保險
+[PRUChoice 家居業主保險](https://www.prudential.com.hk/tc/home-insurance/pruchoice-home-landlord/)
+
+## PRUChoice 家居裝修保險
+[PRUChoice 家居裝修保險](https://www.prudential.com.hk/tc/home-insurance/pruchoice-home-decoration/)
+
+## PRUChoice Furkid Care 寵物保險
+[PRUChoice Furkid Care 寵物保險](https://www.prudential.com.hk/tc/home-insurance/pruchoice-furkid-care-insurance/)
+
+## 康樂及消閒保險
+[康樂及消閒保險](https://www.prudential.com.hk/tc/leisure-insurance/)
+
+## PRUChoice 汽車保險
+[PRUChoice 汽車保險](https://www.prudential.com.hk/tc/leisure-insurance/pruchoice-motor/)
+
+## PRUChoice 高爾夫球保險
+[PRUChoice 高爾夫球保險](https://www.prudential.com.hk/tc/leisure-insurance/pruchoice-golfers/)
+
+## PRUChoice 香港升學保
+[PRUChoice 香港升學保](https://www.prudential.com.hk/tc/leisure-insurance/pruchoice-hong-kong-study-care/)
+
+## PRUChoice 卡護通
+[PRUChoice 卡護通](https://www.prudential.com.hk/tc/leisure-insurance/pruchoice-card-protection-plus/)
+
+## 旅遊保險
+[旅遊保險](https://www.prudential.com.hk/tc/travel-insurance/)
+
+## PRUChoice 旅遊保險系列
+[PRUChoice 旅遊保險系列](https://www.prudential.com.hk/tc/travel-insurance/pruchoice-travel-series/)
+
+## PRUChoice Working Holiday 旅遊保險
+[PRUChoice Working Holiday 旅遊保險](https://www.prudential.com.hk/tc/travel-insurance/pruchoice-travel-working-holiday/)
+
+## PRUChoice 升學旅遊保
+[PRUChoice 升學旅遊保](https://www.prudential.com.hk/tc/travel-insurance/pruchoice-travel-overseas-study/)
+
+## 旅遊及消閒保險總覽
+[旅遊及消閒保險總覽](https://www.prudential.com.hk/tc/travel-and-leisure-insurance/)
+
+## 客戶群組 – 到港人才
+[到港人才](https://www.prudential.com.hk/tc/customer-group/arriving-talents/)
+
+## Pru Next Gen 專屬禮遇
+[Pru Next Gen 專屬禮遇](https://www.prudential.com.hk/tc/customer-group/prunextgen/)
+
+## 生活禮遇
+[生活禮遇](https://www.prudential.com.hk/tc/lifestyle-privileges/)
+
+## 家有兒童
+[家有兒童](https://www.prudential.com.hk/tc/family-with-kids/)
+
+## 結婚準備
+[結婚準備](https://www.prudential.com.hk/tc/getting-married/)
+
+## 職場新鮮人
+[職場新鮮人](https://www.prudential.com.hk/tc/career-starter/)
+
+## 退休規劃
+[退休規劃](https://www.prudential.com.hk/tc/retirement/)
+
+## 企業方案總覽
+[企業方案總覽](https://www.prudential.com.hk/tc/enterprise/)
+
+## 業務保障
+[業務保障](https://www.prudential.com.hk/tc/enterprise/business-protection/)
+
+## PRUChoice 辦公室綜合保險
+[PRUChoice 辦公室綜合保險](https://www.prudential.com.hk/tc/enterprise/business-protection/pruchoice-office-insurance/)
+
+## PRUChoice 商舖綜合保險
+[PRUChoice 商舖綜合保險](https://www.prudential.com.hk/tc/enterprise/business-protection/pruchoice-shop-insurance/)
+
+## 僱員保障方案
+[僱員保障方案](https://www.prudential.com.hk/tc/enterprise/for-your-employees/)
+
+## PRUChoice 團體人壽保險
+[PRUChoice 團體人壽保險](https://www.prudential.com.hk/tc/enterprise/for-your-employees/pruchoice-group-life-assurance/)
+
+## PRUChoice 團體醫療保險
+[PRUChoice 團體醫療保險](https://www.prudential.com.hk/tc/enterprise/for-your-employees/pruchoice-group-medical-insurance/)
+
+## 強積金計劃 (MPF)
+[強積金計劃](https://www.prudential.com.hk/tc/enterprise/for-your-employees/mpf-scheme/)
+
+## PRUWorks
+[PRUWorks](https://www.prudential.com.hk/tc/enterprise/pruworks/)
+
+## 理賠支援 – 總覽
+[理賠支援](https://www.prudential.com.hk/tc/claims-support/)
+
+## 提交索償 – 總覽
+[提交索償](https://www.prudential.com.hk/tc/claims-support/file-claim/)
+
+## 提交索償 – 身故
+[提交索償 – 身故](https://www.prudential.com.hk/tc/claims-support/file-claim/death/)
+
+## 提交索償 – 意外及傷殘
+[提交索償 – 意外及傷殘](https://www.prudential.com.hk/tc/claims-support/file-claim/accident-disability/)
+
+## 提交索償 – 危疾及女士保障
+[提交索償 – 危疾及女士保障](https://www.prudential.com.hk/tc/claims-support/file-claim/critical-illness-lady-protection/)
+
+## 全球緊急支援服務
+[全球緊急支援服務](https://www.prudential.com.hk/tc/claims-support/worldwide-emergency-service/)
+
+## 醫療費用直接結算服務
+[醫療費用直接結算服務](https://www.prudential.com.hk/tc/claims-support/medical-expenses-direct-billing-service/)
+
+## Treatment Sure 一站式醫療諮詢服務
+[Treatment Sure 一站式醫療諮詢服務](https://www.prudential.com.hk/tc/claims-support/treatment-sure/)
+
+## 投資表現 – 市場資訊
+[市場資訊](https://www.prudential.com.hk/tc/claims-support/check-investment-performance/market-updates/)
+
+## 投資組合分布
+[投資組合分布](https://www.prudential.com.hk/tc/claims-support/investment-mix/)
+
+## 了解總現金價值比率
+[了解總現金價值比率](https://www.prudential.com.hk/tc/claims-support/understand-total-cash-value-ratios/)
+
+## 理賠承諾
+[理賠承諾](https://www.prudential.com.hk/tc/claims-support/claims-promise/)
+
+## 綠色通道
+[綠色通道](https://www.prudential.com.hk/tc/claims-support/green-channel/)
+
+## 曼谷杜斯醫療集團網絡
+[曼谷杜斯醫療集團網絡](https://www.prudential.com.hk/tc/claims-support/bangkok-dusit-medical-services/)
+
+## 衛星體檢服務
+[衛星體檢服務](https://www.prudential.com.hk/tc/claims-support/satellite-medical-examination/)
+
+## VHIS 補充資料
+[VHIS 補充資料](https://www.prudential.com.hk/tc/claims-support/vhis-supplementary-info/)
+
+## 客戶通告 – 總覽
+[客戶通告](https://www.prudential.com.hk/tc/claims-support/customer-notices/)
+
+## 保安提示
+[保安提示](https://www.prudential.com.hk/tc/claims-support/customer-notices/security-alerts/)
+
+## 有關公司分拆的通告
+[有關公司分拆的通告](https://www.prudential.com.hk/tc/claims-support/customer-notices/update-on-demerger/)
+
+## 有關 PRUWealth / PRUAsset 保單持有人通告
+[有關 PRUWealth / PRUAsset 保單持有人通告](https://www.prudential.com.hk/tc/claims-support/customer-notices/information-for-pruwealth-pruasset-policy-holders/)
+
+## 監管資訊披露
+[監管資訊披露](https://www.prudential.com.hk/tc/claims-support/customer-notices/regulatory-information/)
+
+## 九龍尖沙咀客戶服務中心辦公時間通告
+[九龍尖沙咀客戶服務中心辦公時間通告](https://www.prudential.com.hk/tc/claims-support/customer-notices/notice-about-the-operation-hours-of-customer-service-centre-in-tst/)
+
+## 保單繳費 – 總覽
+[保單繳費](https://www.prudential.com.hk/tc/claims-support/policy-payment/)
+
+## 繳付人壽保險保費
+[繳付人壽保險保費](https://www.prudential.com.hk/tc/claims-support/policy-payment/pay-for-life-insurance/)
+
+## 繳付一般保險保費
+[繳付一般保險保費](https://www.prudential.com.hk/tc/claims-support/policy-payment/pay-for-general-insurance/)
+
+## SmartAppoint 智能預約服務
+[SmartAppoint 智能預約服務](https://www.prudential.com.hk/tc/claims-support/policy-payment/smartappoint-service/)
+
+## myPrudential – 總覽
+[myPrudential – 總覽](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/)
+
+## myPrudential – 示範影片
+[myPrudential – 示範影片](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/video-demo/)
+
+## myPrudential 自助服務 – 更改付款方式
+[更改付款方式](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/change-payment-mode/)
+
+## myPrudential 自助服務 – 更改繳費方法
+[更改繳費方法](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/change-payment-method/)
+
+## myPrudential 自助服務 – 更新聯絡資料
+[更新聯絡資料](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/update-contact-info/)
+
+## myPrudential 自助服務 – 申請貸款
+[申請貸款](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/apply-loan/)
+
+## myPrudential 自助服務 – 更改保費分配
+[更改保費分配](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/change-premium-allocation/)
+
+## myPrudential 自助服務 – 轉換現有投資選擇
+[轉換現有投資選擇](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/switch-existing-investment-choice/)
+
+## myPrudential 自助服務 – 申請更改受益人
+[申請更改受益人](https://www.prudential.com.hk/tc/claims-support/policy-payment/myprudential/self-service/appoint-beneficiary/)
+
+## 澳門 – 理賠支援總覽
+[澳門 – 提交索償](https://www.prudential.com.hk/tc/macau/claims-support/file-claim/)
+
+## 澳門 – 提交索償 – 身故
+[澳門 – 提交索償 – 身故](https://www.prudential.com.hk/tc/macau/claims-support/file-claim/death/)
+
+## 澳門 – 提交索償 – 危疾保障
+[澳門 – 提交索償 – 危疾保障](https://www.prudential.com.hk/tc/macau/claims-support/file-claim/critical-illness-protection/)
+
+## 澳門 – 理賠承諾
+[澳門 – 理賠承諾](https://www.prudential.com.hk/tc/macau/claims-support/claims-promise/)
+
+## 澳門 – 保單繳費 – PRUServices
+[澳門 – PRUServices](https://www.prudential.com.hk/tc/macau/claims-support/policy-payment/pruservices/)
+
+## 澳門 – 繳付人壽保險保費
+[澳門 – 繳付人壽保險保費](https://www.prudential.com.hk/tc/macau/claims-support/policy-payment/pay-for-life-insurance/)
+
+## 澳門 – 全球緊急支援服務
+[澳門 – 全球緊急支援服務](https://www.prudential.com.hk/tc/macau/claims-support/worldwide-emergency-service/)
+
+## 澳門 – 表格下載
+[澳門 – 表格下載](https://www.prudential.com.hk/tc/macau/claims-support/downloads/)
+
+## 業績表現 – 履行比率 (繁中)
+[履行比率 – 繁中](https://www.prudential.com.hk/performance/fulfillment-ratio/tc/)
+
+## 業績表現 – 總現金價值比率 (繁中)
+[總現金價值比率 – 繁中](https://www.prudential.com.hk/performance/total-cash-value-ratio/tc/)
+
+## 業績表現 – 一般結餘利率 (繁中)
+[一般結餘利率 – 繁中](https://www.prudential.com.hk/performance/general-crediting-interest-ratio/tc/)
+
+## 投資選擇最新表現 (繁中)
+[投資選擇最新表現 – 繁中](https://www.prudential.com.hk/scws/pages/tc/plan-for-life/investment/latest-investment-choice-performance/index.html)
+
+## 匯率資料 (繁中)
+[匯率資料 – 繁中](https://www.prudential.com.hk/scws/pages/tc/plan-for-life/investment/exchange-rates/)
+
+## 稅務計算機 (繁中)
+[稅務計算機 – 繁中](https://www.prudential.com.hk/scws/pages/tc/tax-calculator/)
+
+## 醫院搜尋 – 一般保險保單客戶 (繁中)
+[醫院搜尋 – 一般保險 – 繁中](https://www.prudential.com.hk/scws/pages/tc/customer-support/find-a-hospital/for-general-insurance-policyowners/index.html)
+
+## 醫院搜尋 – 人壽保險保單客戶 (繁中)
+[醫院搜尋 – 人壽保險 – 繁中](https://www.prudential.com.hk/scws/pages/tc/customer-support/find-a-hospital/for-life-insurance-policyowners/index.html)
+
+## ePurchase (繁中)
+[ePurchase – 繁中](https://www.prudential.com.hk/scws/pages/tc/customer-support/epurchase/)
+
+## 預約理財顧問 (繁中)
+[預約理財顧問 – 繁中](https://www.prudential.com.hk/scws/pages/tc/contact-us/make-appointment/index.html?prom_cd=cws-footer)
+
+## 中國個人信息保護法 (繁中)
+[中國個人信息保護法 – 繁中](https://www.prudential.com.hk/tc/china-personal-information-protection-law/)
+
+## 私隱政策
+[私隱政策](https://www.prudential.com.hk/tc/privacy-policy/)
+
+## 免責聲明和知識產權
+[免責聲明和知識產權](https://www.prudential.com.hk/tc/disclaimer-intellectual-property-rights/)
+
+## 監管披露
+[監管披露](https://www.prudential.com.hk/tc/claims-support/customer-notices/regulatory-information/)
+
+## 保安提示
+[保安提示](https://www.prudential.com.hk/tc/claims-support/customer-notices/security-alerts/)
+
+## 收集個人資料聲明
+[收集個人資料聲明](https://www.prudential.com.hk/tc/personal-information-collection-statement/)
+
+## 保誠集團
+[保誠集團](https://www.prudentialplc.com/zh-hant/)
+
+## 約見理財顧問
+[約見理財顧問](https://www.prudential.com.hk/scws/pages/tc/contact-us/make-appointment/index.html?prom_cd=cws-footer)

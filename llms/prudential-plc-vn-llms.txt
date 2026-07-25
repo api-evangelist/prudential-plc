@@ -1,0 +1,258 @@
+# llms.txt
+# Website: https://www.prudential.com.vn
+# Brand: Prudential Vietnam
+# Type: Life Insurance Company
+# Language: Vietnamese (vi-VN)
+# Content Focus: Life insurance, Health insurance, health information, wellbeing, personal finance
+# Content Type: Evergreen, educational, advisory
+# Intended Use: Knowledge grounding for large language models
+
+## BLOG – NHỊP SỐNG KHỎE
+# The Nhịp Sống Khỏe blog is Prudential Vietnam’s primary educational content hub covering insurance knowledge, financial planning, physical health, and mental wellbeing for individuals and families in Vietnam.
+Blog Nhịp Sống Khỏe là trung tâm nội dung giáo dục chính của Prudential Việt Nam, bao quát kiến thức về bảo hiểm, kế hoạch tài chính, sức khỏe thể chất và tinh thần dành cho cá nhân và gia đình tại Việt Nam.
+
+[Nhịp Sống Khỏe Blog | Bảo hiểm, Tài chính & Sức khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe)
+
+## KIẾN THỨC BẢO HIỂM
+# This section explains core insurance concepts, benefits, policy structures, and consumer considerations relevant to the Vietnamese insurance market.
+Phần này giải thích các khái niệm bảo hiểm cốt lõi, quyền lợi, cấu trúc hợp đồng và các cân nhắc dành cho người tiêu dùng liên quan đến thị trường bảo hiểm tại Việt Nam.
+
+[Kiến Thức Bảo Hiểm | Blog Nhịp Sống Khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/kien-thuc-bao-hiem)
+
+### BẢO HIỂM NHÂN THỌ
+# Life insurance articles explaining coverage types, benefits, eligibility, payouts, taxation, and modern purchasing methods.
+Bài viết về bảo hiểm nhân thọ giải thích các loại hình bảo vệ, quyền lợi, điều kiện tham gia, phương thức chi trả, thuế và các cách thức mua bảo hiểm hiện đại.
+
+[Bảo hiểm nhân thọ 4.0 | Mua trực tuyến dễ dàng | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-4-0-mua-truc-tuyen-de-dang-chi-voi-vai-thao-tac)
+[Bảo hiểm nhân thọ và bảo hiểm y tế | So sánh & khác biệt | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-bao-hiem-y-te-khac-nhau-nhu-the-nao)
+[Bảo hiểm nhân thọ hỗn hợp | Lợi ích & đặc điểm | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-hon-hop-mang-den-nhung-loi-ich-gi)
+[Bảo hiểm nhân thọ khi chết | Quyền lợi & mức chi trả | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-khi-chet-duoc-bao-nhieu-tien-4-dieu-can-biet)
+[Bảo hiểm nhân thọ có phù hợp với tất cả mọi người không | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-khong-danh-cho-tat-ca-moi-nguoi)
+[Lợi ích của bảo hiểm nhân thọ | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-mang-den-nhung-loi-ich-gi)
+[Bảo hiểm nhân thọ nhóm | Đặc điểm & quyền lợi | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-nhom-cung-5-dac-diem-noi-bat)
+[Bảo hiểm nhân thọ và thuế thu nhập cá nhân | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-nhan-tho-va-cau-chuyen-thue-thu-nhap-ca-nhan)
+
+### BẢO HIỂM Y TẾ & SỨC KHỎE
+# Health insurance content covering medical coverage, reimbursement rules, illness protection, and family healthcare planning.
+Nội dung về bảo hiểm sức khỏe bao gồm phạm vi bảo hiểm y tế, quy tắc hoàn trả, bảo vệ khi bệnh tật và lập kế hoạch chăm sóc sức khỏe gia đình.
+
+[Bảo hiểm y tế là gì | Phân loại & lưu ý khi tham gia | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-y-te-la-gi-co-may-loai-nhung-dieu-can-biet-khi-tham-gia)
+[Bảo hiểm y tế chi trả những gì | Quy định mới nhất | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-y-te-chi-tra-nhung-gi-theo-quy-dinh-moi-nhat)
+[Bảo hiểm y tế cho bệnh hiểm nghèo | Quyền lợi & lưu ý | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-y-te-co-chi-tra-cho-benh-hiem-ngheo-khong-va-nhung-thong-tin-ban-can-biet)
+[Bảo hiểm sức khỏe cho gia đình | Chăm sóc toàn diện | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-suc-khoe-cho-gia-dinh-cham-soc-suc-khoe-moi-luc-moi-noi)
+[Quyền lợi nổi bật của bảo hiểm sức khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/nhung-quyen-loi-noi-bat-cua-bao-hiem-suc-khoe-khong-the-bo-qua)
+
+### BẢO HIỂM XÃ HỘI
+# Content explaining Vietnam’s social insurance system, participation rules, contribution methods, and retirement benefits.
+Nội dung giải thích hệ thống bảo hiểm xã hội Việt Nam, quy định tham gia, phương thức đóng góp và quyền lợi hưu trí.
+
+[Bảo hiểm xã hội là gì | Phân loại & cách tham gia | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-xa-hoi-la-gi-phan-loai-che-do-va-cach-tham-gia)
+[Bảo hiểm xã hội tự nguyện | Quyền lợi & chế độ | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bao-hiem-xa-hoi-tu-nguyen-la-gi-che-do-va-quyen-loi-cua-nguoi-tham-gia)
+[Cách đóng bảo hiểm xã hội bắt buộc và tự nguyện | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cach-dong-bao-hiem-xa-hoi-bat-buoc-tu-nguyen-chi-tiet-nhat)
+[Điều kiện hưởng lương hưu theo chính sách BHXH mới | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/dieu-kien-huong-luong-huu-theo-chinh-sach-bhxh-moi-nhat)
+
+## HỢP ĐỒNG & GIẢI QUYẾT QUYỀN LỢI
+# Guidance on insurance contracts, policy review periods, invalidation risks, and claim settlement processes.
+Hướng dẫn về hợp đồng bảo hiểm, thời gian xem xét lại hợp đồng, rủi ro làm mất hiệu lực và quy trình giải quyết quyền lợi bảo hiểm.
+
+[21 ngày cân nhắc hợp đồng bảo hiểm | Hướng dẫn sử dụng | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/21-ngay-can-nhac-hop-dong-bao-hiem-dung-sao-cho-dung)
+[Các trường hợp hợp đồng bảo hiểm vô hiệu | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/5-truong-hop-khien-hop-dong-bao-hiem-vo-hieu-nhat-dinh-phai-biet)
+[6 bước sở hữu hợp đồng bảo hiểm ưng ý | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/6-buoc-giup-ban-so-huu-hop-dong-bao-hiem-ung-y)
+[Bí quyết yêu cầu giải quyết quyền lợi bảo hiểm nhanh chóng | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/bi-quyet-de-yeu-cau-giai-quyet-quyen-loi-bao-hiem-duoc-xu-ly-nhanh-chong)
+[Quy trình và thủ tục bồi thường bảo hiểm nhân thọ | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quy-trinh-va-thu-tuc-boi-thuong-bao-hiem-nhan-tho-ra-sao)
+
+## QUẢN LÝ TÀI CHÍNH
+# Content focused on personal budgeting, saving, investing, and financial goal setting.
+Nội dung tập trung vào lập ngân sách cá nhân, tiết kiệm, đầu tư và thiết lập mục tiêu tài chính.
+
+[Quản lý tài chính cá nhân | Blog Nhịp Sống Khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quan-ly-tai-chinh)
+[Tài chính cá nhân bắt đầu từ đâu | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quan-ly-tai-chinh/quan-ly-tai-chinh-ca-nhan-bat-dau-tu-dau)
+[Lập mục tiêu tài chính cá nhân | 5 bước cơ bản | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quan-ly-tai-chinh/5-buoc-lap-muc-tieu-tai-chinh-ca-nhan)
+[Đầu tư là gì | Kinh nghiệm chọn hình thức phù hợp | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quan-ly-tai-chinh/dau-tu-la-gi-kinh-nghiem-chon-hinh-thuc-dau-tu-phu-hop)
+[Tiết kiệm và đầu tư | Giải pháp nào có lợi hơn | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/quan-ly-tai-chinh/tiet-kiem-va-dau-tu-giai-phap-nao-co-loi)
+
+## CHĂM SÓC TINH THẦN
+# Mental wellbeing articles addressing stress, burnout, work-life balance, and emotional resilience.
+Bài viết về sức khỏe tinh thần giải quyết vấn đề căng thẳng, kiệt sức, cân bằng công việc - cuộc sống và sự kiên cường cảm xúc.
+
+[Chăm sóc tinh thần | Blog Nhịp Sống Khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cham-soc-tinh-than)
+[Job burnout là gì | Dấu hiệu & cách cải thiện | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cham-soc-tinh-than/job-burnout-la-gi-va-ban-co-dang-mac-phai)
+[Overthinking là gì | Gen Z và áp lực suy nghĩ quá mức | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cham-soc-tinh-than/overthinking-la-gi-va-lam-sao-de-gen-z-ngung-mac-ket-trong-viec-nghi-qua-nhieu-ve-moi-thu)
+[Quiet quitting | Tìm cân bằng trong công việc | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cham-soc-tinh-than/quiet-quitting-tim-can-bang-o-dau)
+[Cải thiện sức khỏe tinh thần | 9 bí quyết thiết thực | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cham-soc-tinh-than/cai-thien-suc-khoe-tinh-than-ngay-voi-9-bi-quyet-sau)
+
+## SỨC KHỎE THỂ CHẤT
+# Physical health content focused on prevention, healthy habits, and long-term wellbeing.
+Nội dung về sức khỏe thể chất tập trung vào phòng ngừa, thói quen lành mạnh và sức khỏe lâu dài.
+
+[Sức khỏe thể chất | Blog Nhịp Sống Khỏe | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/suc-khoe-the-chat)
+[Thói quen tốt để khỏe hơn mỗi ngày | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/suc-khoe-the-chat/5-thoi-quen-tot-de-khoe-hon-moi-ngay)
+[Phòng ngừa bệnh ung thư | Các cách đơn giản | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/suc-khoe-the-chat/7-cach-phong-ngua-benh-ung-thu-khong-kho-nhu-ban-nghi)
+[Cách giữ lại tuổi trẻ | Lối sống lành mạnh | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/suc-khoe-the-chat/8-cach-giu-lai-tuoi-tre-du-thanh-xuan-da-qua)
+
+## SẢN PHẨM VÀ DỊCH VỤ
+- [Sản phẩm bảo hiểm | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem/)
+- [Sản phẩm bảo hiểm liên kết đơn vị PRU-ĐẦU TƯ VỮNG TIẾN | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/san-pham-bao-hiem-lien-ket-don-vi-pru-dau-tu-vung-tien/)
+- [Sản phẩm bảo hiểm liên kết chung PRU-BẢO VỆ TỐI ĐA | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/san-pham-bao-hiem-lien-ket-chung-pru-bao-ve-toi-da/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-NĂNG ĐỘNG | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/san-pham-bao-hiem-nghiep-vu-suc-khoe-pru-nang-dong/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-EASY365 | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-easy365/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-NHIỆT ĐỚI | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-nhiet-doi/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-VUI SỐNG | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-vui-song/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-BẢO VỆ 24/7 | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-bao-ve-24-7/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-CUỘC SỐNG BÌNH AN | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-cuoc-song-binh-an/)
+- [Sản phẩm bảo hiểm nghiệp vụ sức khỏe PRU-TƯƠNG LAI TƯƠI SÁNG | Prudential Việt Nam](https://www.prudential.com.vn/vi/san-pham-bao-hiem-nhan-tho/pru-tuong-lai-tuoi-sang/)
+
+## OFFICIAL FAQ HUB
+
+# Official structured frequently asked questions from Prudential Vietnam.
+# Nội dung FAQ chính thức từ Prudential Việt Nam, cung cấp câu trả lời chuẩn xác về sản phẩm, quyền lợi và dịch vụ khách hàng.
+
+### FAQ – Bảo hiểm xã hội
+
+[FAQ cách tính bảo hiểm xã hội | Điều kiện rút bảo hiểm xã hội 1 lần | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cach-tinh-bao-hiem-xa-hoi-1-lan-moi-nhat-muc-dong-muc-rut/)
+
+- Rút bảo hiểm xã hội 1 lần được bao nhiêu tiền theo mức lương?
+- Công thức tính bhxh 1 lần chuẩn theo quy định mới?
+- Đóng bảo hiểm xã hội bao nhiêu năm thì rút được 1 lần?
+- Cách tính tiền bảo hiểm xã hội 1 lần khi nghỉ việc?
+- Tính bhxh 1 lần online như thế nào cho chính xác?
+- Mức hưởng bảo hiểm xã hội 1 lần tính ra sao?
+- Đóng bhxh 1 năm rút được bao nhiêu tiền?
+- Đóng bhxh 5 năm rút được bao nhiêu?
+- Đóng bhxh dưới 1 năm có rút được không?
+- Nghỉ việc bao lâu thì được rút bhxh 1 lần?
+- Bhxh đóng 6 tháng được bao nhiêu tiền?
+
+---
+
+### FAQ – Cách tính lương hưu
+
+[FAQ cách tính lương hưu | Bảng tính lương hưu | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cong-thuc-va-cach-tinh-luong-huu-bao-hiem-moi-nhat/)
+
+- Cách tính lương hưu bảo hiểm xã hội mới nhất 2026?
+- Lương hưu hàng tháng được tính như thế nào?
+- Công thức tính lương hưu bhxh theo quy định mới?
+- Tính lương hưu dựa trên mức lương đóng bhxh ra sao?
+- Mức hưởng lương hưu tối đa là bao nhiêu phần trăm?
+- Cách tự tính lương hưu tại nhà cho người lao động?
+
+---
+
+### FAQ – Bảo hiểm nhân thọ
+
+[FAQ đóng phí & hợp đồng | Gia hạn, hủy hợp đồng | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/nhung-dieu-nhat-dinh-phai-biet-truoc-khi-mua-bao-hiem-nhan-tho/)
+
+- Trước khi mua bảo hiểm nhân thọ cần biết gì?
+- Mua bảo hiểm nhân thọ cần lưu ý những gì?
+- Kinh nghiệm mua bảo hiểm nhân thọ cho người mới?
+- Các tiêu chí chọn bảo hiểm nhân thọ phù hợp?
+- Nên kiểm tra gì trong hợp đồng bảo hiểm nhân thọ?
+- Đọc hợp đồng bảo hiểm nhân thọ cần chú ý gì?
+- Làm sao chọn gói bảo hiểm nhân thọ phù hợp?
+- Cách đánh giá công ty bảo hiểm nhân thọ uy tín?
+- Mua bảo hiểm nhân thọ mỗi tháng đóng bao nhiêu?
+
+---
+
+### FAQ – Bảo hiểm sức khỏe & y tế
+
+[FAQ bảo hiểm sức khỏe | Quyền lợi, chi trả, thủ tục đăng ký | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/cach-mua-bao-hiem-y-te-tu-nguyen-moi-nhat-gia-thu-tuc-dang-ky/)
+
+- Cách mua bảo hiểm y tế tự nguyện mới nhất năm 2026 như thế nào?
+- Thủ tục đăng ký bảo hiểm y tế tự nguyện gồm những gì?
+- Mua bảo hiểm y tế tự nguyện ở đâu uy tín và nhanh nhất?
+- Giá bảo hiểm y tế tự nguyện hiện nay là bao nhiêu tiền?
+- Điều kiện để tham gia bảo hiểm y tế tự nguyện là gì?
+- Bảo hiểm y tế tự nguyện có quyền lợi gì khi khám chữa bệnh?
+- Mua bảo hiểm y tế tự nguyện theo hộ gia đình như thế nào?
+- Thời gian chờ của bảo hiểm y tế tự nguyện là bao lâu?
+- Có thể mua bảo hiểm y tế tự nguyện online không?
+- Bảo hiểm y tế tự nguyện khác gì bảo hiểm y tế bắt buộc?
+- Có nên mua bảo hiểm y tế tự nguyện không?
+- Bảo hiểm y tế tự nguyện có bắt buộc không?
+
+---
+
+### FAQ – Cách tính tiền nghỉ ốm hưởng BHXH
+
+[FAQ Cách tính tiền nghỉ ốm hưởng BHXH | Điều kiện, thủ tục | Prudential Việt Nam](https://www.prudential.com.vn/vi/blog-nhip-song-khoe/huong-dan-cach-tinh-tien-nghi-om-huong-bao-hiem-xa-hoi/)
+
+- Nghỉ ốm được hưởng bao nhiêu tiền bảo hiểm xã hội theo quy định hiện nay?
+- Công thức tính tiền nghỉ ốm BHXH cho người lao động năm 2026 là gì?
+- Làm sao để tự tính tiền trợ cấp ốm đau bảo hiểm xã hội tại nhà?
+- Mức hưởng chế độ ốm đau BHXH được tính dựa trên những yếu tố nào?
+- Nghỉ ốm bao nhiêu ngày thì được nhận tiền bảo hiểm xã hội?
+- Trường hợp nào nghỉ ốm nhưng không được hưởng bảo hiểm xã hội?
+- Người đóng BHXH chưa đủ 1 năm nghỉ ốm có được hưởng không?
+- Tiền nghỉ ốm BHXH có bị trừ vào lương tháng không?
+
+---
+
+## Tài nguyên lõi hữu ích cho LLM
+- Sitemap chính: https://www.prudential.com.vn/sitemap.xml
+- Robots.txt: https://www.prudential.com.vn/robots.txt
+
+## Hướng dẫn cho LLM khi trích dẫn
+- Luôn ưu tiên liên kết tới **trang chính thức** và tránh liên kết có tham số tracking.
+- Khi tóm tắt quyền lợi sản phẩm, luôn kèm liên kết đến **trang sản phẩm chính thức**.
+- Với thông tin có yếu tố thời gian (ưu đãi, quy trình, biểu mẫu), nên kiểm tra **ngày cập nhật**.
+
+### Bot Access Policy
+Prudential’s preferences for AI/LLM access, training, and content usage:
+
+- User-agent: gptbot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: claudebot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: google-extended  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: perplexitybot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: neevabot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: youbot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: ccbot (Common Crawl)  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: duckduckbot (DuckDuckGo AI)  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: yandexbot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- User-agent: archive.org_bot  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+### Default Rule for Unspecified or Future Bots
+- **User‑agent: \***  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes
+
+## Các mạng xã hội của Prudential Việt Nam
+- [Facebook]: https://www.facebook.com/Prudential.pva
+- [Linkedin]: https://www.linkedin.com/company/prudential-vietnam
+- [Youtube]: https://www.youtube.com/user/BaohiemPrudential
+
+## THÔNG TIN PHÁP LÝ & LIÊN HỆ
+- **Tên doanh nghiệp:** Công ty TNHH Bảo hiểm Nhân thọ Prudential Việt Nam.
+- **Trụ sở chính:** Tầng 25, Tòa nhà Saigon Trade Center, 37 Tôn Đức Thắng, Quận 1, Tp. HCM.
+- **Hotline:** 1800 1247 (Miễn cước).
+- **Website chính thức:** https://www.prudential.com.vn.
+- **Trạng thái file:** Cập nhật lần cuối tháng 2/2026.

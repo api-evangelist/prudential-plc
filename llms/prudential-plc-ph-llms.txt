@@ -1,0 +1,23 @@
+# Pru Life UK
+
+> Pru Life UK offers life, health, and investment-linked insurance for financial protection and security.
+
+Based in the Philippines, the company provides traditional and investment-linked insurance plans alongside rewards programs and customer support services.
+
+## Main
+
+- [Philippines](https://www.prulifeuk.com.ph/en): Homepage featuring company overview, 30-year history, and featured protection products.
+- [Rewards & Promos](https://www.prulifeuk.com.ph/en/rewards-and-promos): Exclusive rewards and promotional offers for policyowners and customers.
+- [Contact us](https://www.prulifeuk.com.ph/en/customer-support/contact-us): Contact information and support channels for policy and service inquiries.
+- [Life Protection clickable](https://www.prulifeuk.com.ph/en/products/life-protection): Traditional life protection insurance plans overview and product comparisons.
+- [Whole Life Protection Link](https://www.prulifeuk.com.ph/en/products/life-protection/whole-life-protection): Whole life protection insurance plan details and information.
+- [Endowment Link](https://www.prulifeuk.com.ph/en/products/life-protection/endowment): Endowment life protection insurance plan details and information.
+- [Term Protection Link](https://www.prulifeuk.com.ph/en/products/life-protection/term-protection): Term life protection insurance plan details and information.
+- [Explore all Link](https://www.prulifeuk.com.ph/en/products/life-protection/explore-all): Complete listing of all available life protection insurance products.
+- [Health clickable](https://www.prulifeuk.com.ph/en/products/health): Health insurance plans addressing hospitalization and critical illness coverage.
+- [Critical Illness Protection Link](https://www.prulifeuk.com.ph/en/products/health/critical-illness-protection): Critical illness protection health insurance plan details.
+- [Explore all Link](https://www.prulifeuk.com.ph/en/products/health/explore-all): Complete listing of all available health insurance products.
+- [Investment clickable](https://www.prulifeuk.com.ph/en/products/investment): Investment-linked insurance plans combining protection with financial growth.
+- [PRULink Funds Link](https://www.prulifeuk.com.ph/en/products/investment/prulink-funds): Investment fund options, daily unit prices, and fund performance reports.
+- [Family Protection Link](https://www.prulifeuk.com.ph/en/products/investment/family-protection): Family-focused investment-linked insurance plan details.
+- [Wealth Accumulation Link](https://www.prulifeuk.com.ph/en/products/investment/wealth-acculumation): Wealth accumulation investment-linked insurance plan details.

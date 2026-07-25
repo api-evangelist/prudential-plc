@@ -381,3 +381,96 @@ actions:
     M&G-owned UK "Pru" brands) are documented explicitly so downstream
     enrichment and reporting do not attribute another company's API surface
     to this one.
+enrichmentRounds:
+- date: '2026-07-25'
+  round: 'enrichment 2026-07-25'
+  correction: >-
+    The first round concluded Prudential plc has no machine-readable surface of
+    any kind. That was true for APIs and WRONG for llms.txt. The first round
+    probed only prudentialplc.com; it never probed /llms.txt on the market
+    operating-company domains, where six real first-party documents were live the
+    whole time.
+  newFindings:
+  - finding: >-
+      Six first-party llms.txt documents harvested verbatim - Prudential Hong Kong
+      (46,557 bytes, bilingual EN/TC), Prudential Singapore (41,976), Prudential
+      Vietnam (19,914), Prudential BSN Takaful Malaysia (10,585), Prudential
+      Indonesia (7,113) and Pru Life UK Philippines (2,655). None contains any API
+      content; all are content grounding for LLMs.
+    artifact: llms/_index.yml
+  - finding: >-
+      Prudential Vietnam's llms.txt carries a per-user-agent "Bot Access Policy"
+      declaring Allow-Training: yes and Allow-Retrieval: yes for gptbot,
+      claudebot, google-extended, perplexitybot, neevabot, youbot, ccbot,
+      duckduckbot, yandexbot and archive.org_bot. Ad-hoc vocabulary inside
+      llms.txt, not IETF AIPREF, and the only per-agent consent declaration in the
+      estate.
+    artifact: well-known/prudential-plc-well-known.yml
+  - finding: >-
+      Five further market hosts (prudential.com.my, prudential.co.th,
+      pcalife.com.tw, prudential.com.mm, prudentialsyariah.co.id) answer /llms.txt
+      with HTTP 200 but return the 8-byte literal string "llms.txt" - an Adobe
+      Experience Manager path echo, not a document. Recorded as not published.
+    artifact: llms/_index.yml
+  - finding: >-
+      www.pruworks.com is a blanket catch-all - a deliberately bogus path
+      (/.well-known/zzz-does-not-exist-12345) returns HTTP 200 with the same
+      109-byte lander redirect stub as /.well-known/security.txt. Any 200 on that
+      host is meaningless. Control probe recorded so a later round is not fooled.
+    artifact: well-known/prudential-plc-well-known.yml
+  - finding: >-
+      Centralised group security posture. All seven probed domains publish an SPF
+      record of the identical shape "v=spf1 include:<tenant-hash>.powerspf.com
+      -all" and a DMARC record sharing one aggregate-report mailbox
+      (rzrknxeawk@rua.powerdmarc.com) - a single PowerDMARC tenant across eleven
+      jurisdictions. TLS 1.3 and HSTS on every host. prudentialplc.com is at
+      p=reject with aspf=s; the markets are at p=quarantine. prudential.co.id is
+      the only DNSSEC-signed domain. No domain publishes CAA.
+    artifact: security/prudential-plc-domain-security.yml
+  - finding: >-
+      https://www.prudentialplc.com/en/site-services/responsible-ai-at-prudential/
+      publishes five named AI Ethics Principles (Value; Transparency and
+      explainability; Fairness; Accountability and responsibility; Compliance)
+      applied to first- and third-party AI, overseen by a named AI Governance
+      Working Group. A published governance posture the first round did not
+      capture.
+    artifact: conformance/prudential-plc-conformance.yml
+  - finding: >-
+      Prudential Singapore's own llms.txt links /sgfindex, which now returns HTTP
+      404 (as does /services/sgfindex). SGFinDex is Singapore's MAS/GovTech
+      consented financial-data exchange - the closest thing to an open-data regime
+      touching this group - but no live first-party page or integration surface
+      was confirmed, so it is recorded as unevidenced.
+    artifact: conformance/prudential-plc-conformance.yml
+  - finding: >-
+      Zero first-party SDKs on any registry. The npm scopes @prudential, @pru-rt
+      and @prudential-cambodia are forks of community React Native libraries whose
+      declared backing GitHub organizations do not exist. Recorded as
+      unattributable lookalikes so no future round awards SDK credit for them.
+    artifact: packages/prudential-plc-packages.yml
+  reconfirmed:
+  - No OpenAPI, Swagger, AsyncAPI, GraphQL SDL or .proto on any host, including every market consumer host (/openapi.json, /swagger.json, /api-docs, /graphql all 404).
+  - No /.well-known/ document of any kind - security.txt, api-catalog, ai-plugin.json, openid-configuration, oauth-authorization-server and oauth-protected-resource all 404 on every host.
+  - No /ai.txt anywhere.
+  - No status page, SLA, changelog, roadmap, sandbox, CLI or embedded components.
+  - No vulnerability disclosure policy, bug bounty or trust centre - trust.prudentialplc.com and security.prudentialplc.com do not resolve, and prudential.statuspage.io returns HTTP 500.
+  - No SOC 2, ISO 27001, PCI DSS or comparable certification is published, so no Compliance pointer was emitted.
+  notEmitted:
+    reason: >-
+      The following artifacts were deliberately NOT written because there is no
+      underlying reality to record, and an empty shell would misrepresent the
+      provider.
+    artifacts:
+    - {artifact: 'openapi/', why: no specification exists anywhere}
+    - {artifact: 'authentication/', why: no authentication scheme is documented because no API is documented}
+    - {artifact: 'scopes/', why: no OAuth surface}
+    - {artifact: 'conventions/', why: no API conventions are published; every field would be null, and no Idempotency pointer is justified}
+    - {artifact: 'errors/', why: no error contract or error-code registry}
+    - {artifact: 'mcp/', why: no MCP server and no OpenAPI from which to derive candidate tools}
+    - {artifact: 'skills/', why: no OpenAPI to ground an Agent Skill in - every step would be invented}
+    - {artifact: 'asyncapi/', why: no event, streaming or webhook surface; absence is not penalised}
+    - {artifact: 'sandbox/', why: no sandbox, test environment or trial credentials are offered publicly}
+    - {artifact: 'changelog/', why: no dated API changelog; the corporate cadence is captured in lifecycle/ instead}
+    - {artifact: 'security/*-vulnerability-disclosure.yml', why: 'probe-security-programs.py returned vdp=none; no disclosure policy, security.txt Policy or bug bounty found'}
+    - {artifact: 'security/*-trust-center.yml', why: 'probe-security-programs.py returned trust=none; no trust centre exists'}
+    - {artifact: 'agentic-access/', why: requires OpenAPI operations to classify}

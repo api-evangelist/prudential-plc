@@ -1,0 +1,250 @@
+# llms.txt - Prudential BSN Takaful Website
+
+## Site Information
+- **Site Name**: Prudential BSN Takaful Berhad (PruBSN)
+- **URL**: https://www.prubsn.com.my
+- **Platform**: Adobe Experience Manager (AEM)
+- **Industry**: Islamic Financial Services (Takaful)
+- **Business**: Takaful (Islamic Insurance) Provider
+- **Languages**: English (`/en/`) and Bahasa Malaysia (`/ms/`)
+- **Primary Market**: Malaysia
+- **Target Audience**: Malaysian families and individuals seeking Shariah-compliant financial protection
+
+## Site Structure
+
+### Core Paths
+- `en/` - English content
+- `en/products/all-basic-plans` - English all basic plans products page
+- `ms/` - Bahasa Malaysia content
+- `en/products/all-basic-plans` - Bahasa Malaysia all basic plans products page
+
+
+### Main Navigation Structure
+```
+  ├── en/ (English Home Page)
+  │   ├── products/
+  │   │   ├── all-basic-plans/
+  │   │   |   ├── protection/
+  |   │   │   |   ├── prubsn-lindung-famili/
+  |   │   │   |   ├── lindungi/
+  |   │   │   |   ├── prubsn-damai/
+  |   │   │   |   ├── prubsn-damaigenz/
+  |   │   │   |   ├── prubsn-anggun/
+  |   │   │   |   ├── prubsn-sinar/
+  |   │   │   |   ├── prubsn-anugerahmax/
+  |   │   │   |   ├── skim-insurans-kesejahteraan-rakyat/
+  |   │   │   |   ├── amanah-medicare/
+  |   │   │   |   ├── prubsn-kritikal-care360/
+  |   │   │   |   └── prubsn-asas-360/
+  │   │   |   ├── wealth/
+  |   │   │   |   ├── prubsn-warisangold/
+  |   │   │   |   └── prubsn-aspirasi/
+  │   │   |   └── health/
+  |   │   │       ├── medic-plan/
+  |   │   │       ├── cancer-plan/
+  |   │   │       └── prubs-cegah-famili/
+  │   │   ├── riders/
+  │   │   |   ├── accident/
+  |   │   │   |   ├── accidental-disablement-protector/
+  |   │   │   |   ├── accidental-protector-plus/
+  |   │   │   |   ├── accidental-medical-protector/
+  |   │   │   |   └── accidental-income-protector/
+  │   │   |   ├── child/
+  |   │   │   |   ├── vital-care-plus/
+  |   │   │   |   ├── parent-term/
+  |   │   │   |   └── baby-totalcare/
+  │   │   |   ├── contributor/
+  |   │   │   |   ├── contributor-parent-saver/
+  |   │   │   |   ├── contributor-parent-protect/
+  |   │   │   |   ├── contributor-spouse-protect/
+  |   │   │   |   ├── contributor-saver/
+  |   │   │   |   ├── contributor-protect/
+  |   │   │   |   ├── contributor-joint-saver/
+  |   │   │   |   ├── contributor-joint-protect/
+  |   │   │   |   └── contributor-spouse-saver/
+  │   │   |   ├── critical-illness/
+  |   │   │   |   ├── crisis-totalcare/
+  |   │   │   |   ├── crisis-shield/
+  |   │   │   |   ├── crisis-protector/
+  |   │   │   |   └── cancer-protector/
+  │   │   |   ├── donation/
+  |   │   │   |   └── ihsan/
+  │   │   |   ├── income/
+  |   │   │   |   └── income-protector/
+  │   │   |   ├── investment/
+  |   │   │   |   ├── takaful-saver/
+  |   │   │   |   └── takaful-saver-kid/
+  │   │   |   ├── medical/
+  |   │   │   |   ├── health360/
+  |   │   │   |   └── medic-totalcare/
+  │   │   |   ├── protection/
+  |   │   │   |   ├── hajj-umrah-protector/
+  |   │   │   |   ├── level-term/
+  |   │   │   |   └── hajj-protection/
+  │   │   |   └── health/
+  |   │   │       └── mom-care/
+  │   │   └── funds/
+  │   │       ├── fund-price/
+  │   │       └── takafulink-funds-performance-information/
+  │   ├── knowledge-corner/
+  │   │   ├── takaful-articles/
+  │   │   ├── life-stages/
+  │   │   │   ├── young-adult/
+  │   │   │   ├── new-parent/
+  │   │   │   ├── growing-family/
+  │   │   │   ├── mature-family/
+  │   │   │   └── towards-retirement/
+  │   │   ├── protecting-health/
+  │   │   └── growing-health/
+  │   ├── claims-services/
+  │   │   ├── claims-made-easy/
+  │   │   ├── how-to-pay/
+  │   │   ├── hospital-network/
+  │   │   ├── services/
+  │   │   └── tools/
+  │   ├── help-and-support/
+  │   │   ├── faq/
+  │   │   └── contact/
+  │   ├── search/
+  │   ├── pruservices/
+  │   ├── related-links/
+  │   ├── financial-funds-performance/
+  │   ├── privacy-policy/
+  │   ├── terms-conditions/
+  │   └── about-us/
+  │       ├── about-prubsn/
+  │       ├── about-takaful/
+  │       │   └── work-with-us/
+  │       │       ├── careers/
+  │       │       └── agency-admin/
+  │       ├── sustainability-at-prubsn/
+  │       ├── campaigns-announcements/
+  │       ├── financial-performance/
+  │       └── press-releases/
+  └── ms/ (Bahasa Malaysia Home Page - mirrors /en/ structure)
+```
+
+## PruBSN-Specific Business Context
+
+### Takaful Terminology
+- **Takaful**: Islamic insurance based on Shariah principles (mutual cooperation and protection)
+- **Takaful Certificate**: Policy document (not "insurance policy")
+- **Takaful Participant**: Policyholder/customer
+- **Takaful Consultant/Agent**: Sales representative
+- **Contribution**: Premium payment
+- **Tabarru'**: Donation/contribution to the common fund
+- **Wakalah**: Agency contract model
+- **Hibah**: Gift/bonus from surplus
+- **Shariah Compliance**: Adherence to Islamic law principles
+
+### Product Categories
+1. **Protection Plans**: Death, disability, critical illness coverage
+2. **Health Plans**: Medical and hospitalization coverage
+3. **Wealth Plans**: Savings and investment-linked takaful
+4. **Riders**: Supplementary benefits added to basic plans
+5. **Takafulink**: Unit-linked investment plans
+
+### Key Products & Services
+- **Basic Plans**: Core takaful certificates
+- **Medical Riders**: PRUMedik, PRUMedik Asas, PRUCancer Cover Plus
+- **Panel Hospitals & Clinics**: Network of healthcare providers
+- **PRUPanel Plus**: Enhanced hospital panel benefits
+- **i-Lindung**: EPF-linked protection scheme
+- **SIKR**: Skim Insurans Kesejahteraan Rakyat (government welfare scheme)
+- **Takaful Calculator**: Online quotation tool (https://prubsnadvisor.com)
+- **Fund Price**: Daily unit pricing for investment-linked funds
+
+### Digital Platforms
+- **PruBSN Touch**: Mobile app for certificate management
+- **PRUServices**: Web portal for participant self-service
+- **PruBSN Pay**: Online payment platform (https://app.prubsn.com.my/PruBSNPay/)
+- **MobileME**: Mobile Medical Examination service
+
+### Life Stages Framework
+Content organized around customer life stages:
+- Single/Young Adult
+- New Parents
+- Growing Family
+- Mature Family
+- Towards Retirement
+
+### Value-Added Services
+- **Islamic Spiritual Support**: Collaboration with Darussyifa'
+- **Second Medical Opinion**: Healthcare consultation service
+- **Day Surgery Benefit**: Outpatient surgical procedures coverage
+- **PruBSN Prihatin**: Charitable/CSR arm
+
+## Integration Points
+
+### PruBSN-Specific Systems
+- **PruBSN Touch**: Mobile application for certificate management
+  - Login endpoint: https://app.prubsn.com.my/PruBSNTouch/login/login.do
+  - Native iOS and Android apps
+  
+- **PRUServices**: Web-based participant portal
+  - URL: https://pruservices.prubsn.com.my/app/
+  - Self-service certificate management
+  - Claims submission and tracking
+  
+- **PruBSN Pay**: Online payment platform
+  - URL: https://app.prubsn.com.my/PruBSNPay/validate
+  - Contribution payment processing
+  
+- **Takaful Calculator/Advisor**: Quotation engine
+  - URL: https://prubsnadvisor.com/input-page
+  - Product recommendations and pricing
+
+### Third-Party Services
+- **Panel Hospital/Clinic Network**: Healthcare provider integration
+- **PIDM (Perbadanan Insurans Deposit Malaysia)**: Regulatory compliance
+- **Bank Negara Malaysia (BNM)**: Regulatory reporting
+- **Darussyifa'**: Islamic spiritual support collaboration
+- **Payment Gateways**: Online payment processing
+- **Email Services**: Transactional and marketing communications
+
+## Additional Resources
+
+### Documentation
+- [Adobe AEM Documentation](https://experienceleague.adobe.com/docs/experience-manager.html)
+- [AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/)
+- [Bank Negara Malaysia (BNM) Guidelines](https://www.bnm.gov.my/)
+- [PIDM Information](https://www.pidm.gov.my/)
+- [Malaysian Takaful Association](https://www.malaysiantakaful.com.my/)
+
+### Contact Information
+- **Customer Service Centre Hotline**: +603 2775 7188
+- **Corporate Office**: Level 13, Menara Prudential, Persiaran TRX Barat, 55188 Tun Razak Exchange, Kuala Lumpur, Malaysia
+- **Website**: https://www.prubsn.com.my
+- **Email**: Available via contact form
+
+### Social Media
+- [Facebook](https://www.facebook.com/prubsn)
+- [YouTube](https://www.youtube.com/user/PruBSNOfficial)
+
+
+### Regulatory & Compliance Notes
+- Member of PIDM (Perbadanan Insurans Deposit Malaysia)
+- Licensed and regulated by Bank Negara Malaysia
+- Shariah-compliant products reviewed by Shariah Advisory Committee
+- All promotional materials require compliance approval
+- Product illustrations must follow BNM guidelines
+- Maintain audit trails for regulatory reporting
+
+### Brand Guidelines
+- Tagline: "For All. For Life."
+- Brand personality: Trustworthy, caring, accessible
+- Visual style: Professional yet warm, culturally sensitive
+- Photography: Diverse Malaysian families, inclusive representation
+- Typography: Clean, readable fonts for bilingual content
+
+---
+
+**Company Information**
+- **Legal Name**: Prudential BSN Takaful Berhad
+- **Registration**: 200601020898
+- **Nature**: Joint venture between Prudential plc (UK) and Bank Simpanan Nasional (BSN)
+- **Distinction**: Not affiliated with Prudential Financial, Inc. (USA)
+
+**Copyright**: © Prudential BSN Takaful Berhad. All Rights Reserved.
+
+**Last Updated**: April 2026

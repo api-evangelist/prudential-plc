@@ -1,0 +1,173 @@
+generated: '2026-07-25'
+method: searched
+source: live probes of https://<host>/llms.txt across every resolvable Prudential plc market domain, 2026-07-25
+note: >-
+  Prudential plc publishes no API, no developer portal and no llms.txt on the
+  corporate domain (www.prudentialplc.com/llms.txt returns HTTP 404). Its
+  operating businesses in Asia, however, DO publish real, first-party llms.txt
+  files on their consumer domains. Six were harvested verbatim below. This is the
+  only machine-readable, agent-facing surface the group publishes anywhere - it
+  is content grounding for LLMs, not a programmable interface, and it must not be
+  read as evidence of an API. Recorded here because a previous round concluded
+  the group had zero machine-readable surface, which was true for APIs and wrong
+  for llms.txt.
+corporate:
+  host: https://www.prudentialplc.com
+  llms_txt: null
+  status: 404
+  note: The group holding-company site publishes no llms.txt and no ai.txt (both 404).
+harvested:
+- market: Hong Kong
+  entity: Prudential Hong Kong Limited
+  source: https://www.prudential.com.hk/llms.txt
+  status: 200
+  content_type: text/plain; charset=UTF-8
+  bytes: 46557
+  file: prudential-plc-hk-llms.txt
+  format: >-
+    Commented header block stating the purpose ("Provide Large Language Models
+    with safe, accurate, and structured guidance on how to interpret, reference,
+    and summarise content from https://www.prudential.com.hk/"), then bilingual
+    [EN] and [TC] sections, each an H1 + blockquote summary followed by ~450
+    titled links across products, customer support, claims, ePurchase (PRUe Shop)
+    and the member login.
+  api_content: false
+- market: Singapore
+  entity: Prudential Assurance Company Singapore (Pte) Limited
+  source: https://www.prudential.com.sg/llms.txt
+  status: 200
+  content_type: text/plain
+  bytes: 41976
+  file: prudential-plc-sg-llms.txt
+  format: >-
+    Canonical llms.txt shape - H1, blockquote summary, then "## Core Pages" and
+    further sectioned markdown link lists covering products, claims, PRUServices,
+    PRUPanel Connect, PRUDiscovery, PRURewards, adviser search and annual reports.
+  api_content: false
+  note: >-
+    Links a https://www.prudential.com.sg/sgfindex path which now returns HTTP 404
+    (as does /services/sgfindex). SGFinDex is Singapore's MAS/GovTech consented
+    financial-data exchange; the stale link is the only trace of a data-sharing
+    regime anywhere in this company's public estate, and no live Prudential
+    Singapore SGFinDex page or API surface was confirmed.
+- market: Indonesia
+  entity: PT Prudential Life Assurance
+  source: https://www.prudential.co.id/llms.txt
+  status: 200
+  content_type: text/plain; charset=UTF-8
+  bytes: 7113
+  file: prudential-plc-id-llms.txt
+  format: >-
+    H1 + prose "About Prudential Indonesia" (established 1995, part of Prudential
+    plc) followed by sectioned Indonesian-language link lists.
+  api_content: false
+- market: Vietnam
+  entity: Prudential Vietnam Assurance Private Ltd
+  source: https://www.prudential.com.vn/llms.txt
+  status: 200
+  content_type: text/plain; charset=UTF-8
+  bytes: 19914
+  file: prudential-plc-vn-llms.txt
+  format: >-
+    Commented metadata header (Website, Brand, Type, Language vi-VN, Content
+    Focus, Content Type, Intended Use "Knowledge grounding for large language
+    models"), then Vietnamese content sections, LLM citation guidance, and a
+    "Bot Access Policy" block.
+  api_content: false
+  bot_access_policy: true
+  note: >-
+    The richest agent-consent signal in the group. Declares per-user-agent
+    Allow-Training / Allow-Retrieval preferences for gptbot, claudebot,
+    google-extended, perplexitybot, neevabot, youbot, ccbot (Common Crawl),
+    duckduckbot, yandexbot and archive.org_bot - all set to yes. Also names the
+    sitemap and robots.txt as the core LLM resources. This is an ad-hoc,
+    self-defined vocabulary inside llms.txt, not IETF AIPREF and not a
+    /.well-known/ document.
+- market: Philippines
+  entity: Pru Life Insurance Corporation of U.K. (Pru Life UK)
+  source: https://www.prulifeuk.com.ph/llms.txt
+  status: 200
+  content_type: text/plain; charset=ISO-8859-1
+  bytes: 2655
+  file: prudential-plc-ph-llms.txt
+  format: Canonical llms.txt - H1, blockquote, "## Main" link list. The smallest of the six.
+  api_content: false
+- market: Malaysia (takaful)
+  entity: Prudential BSN Takaful Berhad (PruBSN)
+  source: https://www.prubsn.com.my/llms.txt
+  status: 200
+  content_type: text/plain
+  bytes: 10585
+  file: prudential-plc-my-prubsn-llms.txt
+  format: >-
+    Structured "## Site Information" block (Site Name, URL, Platform "Adobe
+    Experience Manager (AEM)", Industry "Islamic Financial Services (Takaful)",
+    Languages /en/ and /ms/, Primary Market, Target Audience) then sectioned link
+    lists.
+  api_content: false
+  note: >-
+    The only harvested file that names the CMS platform. Confirms the group runs
+    Adobe Experience Manager across its estate, consistent with the corporate
+    site's AEM sitemap paths.
+not_published:
+- host: https://www.prudentialplc.com
+  status: 404
+- host: https://www.prudential.com.my
+  status: 200
+  published: false
+  note: >-
+    Returns the 8-byte literal string "llms.txt" with content-type
+    text/plain;charset=iso-8859-1 - an AEM path echo, not a document. Recorded as
+    not published so a later round does not count it.
+- host: https://www.prudential.co.th
+  status: 200
+  published: false
+  note: 8-byte literal "llms.txt" echo, same AEM quirk as Malaysia.
+- host: https://www.pcalife.com.tw
+  status: 200
+  published: false
+  note: 8-byte literal "llms.txt" echo (Prudential Life Assurance Taiwan).
+- host: https://www.prudential.com.mm
+  status: 200
+  published: false
+  note: 8-byte literal "llms.txt" echo (Myanmar).
+- host: https://www.prudentialsyariah.co.id
+  status: 200
+  published: false
+  note: 8-byte literal "llms.txt" echo (Prudential Syariah Indonesia).
+- host: https://www.prudential.com.kh
+  status: 404
+- host: https://www.citic-prudential.com.cn
+  status: 404
+  note: CITIC Prudential Life is a 50/50 China joint venture; returns the site HTML 404 page.
+- host: https://www.prudential.co.ke
+  status: 404
+- host: https://www.prudential.com.gh
+  status: 404
+- host: https://www.prudential.co.zm
+  status: 404
+- host: https://www.prudentiallife.com.ng
+  status: '000'
+  note: DNS did not resolve at probe time.
+- host: https://www.prudential.com.la
+  status: '000'
+- host: https://www.eastspring.com
+  status: '000'
+  note: Eastspring Investments, the group asset manager. www host did not resolve on this probe.
+ai_txt:
+  probed:
+  - https://www.prudentialplc.com/ai.txt
+  - https://www.prudential.com.hk/ai.txt
+  - https://www.prudential.com.sg/ai.txt
+  - https://www.prudential.co.id/ai.txt
+  - https://www.prudential.com.vn/ai.txt
+  - https://www.prulifeuk.com.ph/ai.txt
+  - https://www.prubsn.com.my/ai.txt
+  result: all HTTP 404 - no ai.txt anywhere in the estate.
+generated_file:
+  file: prudential-plc-llms.txt
+  method: generated
+  note: >-
+    The group-level llms.txt in this directory is OURS, generated by the API
+    Evangelist enrichment pipeline from apis.yml and review.yml. The six market
+    files above are the provider's own, saved verbatim.

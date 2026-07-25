@@ -1,0 +1,141 @@
+generated: '2026-07-25'
+method: searched
+source: >-
+  live probes 2026-07-25 of www.prudentialplc.com and every resolvable
+  Prudential plc market host, plus
+  https://www.prudentialplc.com/en/about-us/our-strategy/technology/ and
+  https://www.prudentialplc.com/en/site-services/responsible-ai-at-prudential/
+note: >-
+  No OpenAPI, Swagger, AsyncAPI, GraphQL SDL or .proto document exists for this
+  provider, so nothing below is derived from a specification. Every entry is
+  anchored to a live probe or to published first-party copy. conforms:false means
+  "not evidenced publicly" - it is not an assertion that an internal or
+  partner-gated Prudential system fails the standard. Prudential plc's real
+  integration channel is bancassurance and tied agency distribution governed by
+  commercial contract, which is out of scope for every standard below.
+standards:
+- id: openapi
+  conforms: false
+  evidence: >-
+    /openapi.json, /openapi.yaml, /swagger.json, /api-docs, /spec and /redoc all
+    return HTTP 404 on www.prudentialplc.com, and /openapi.json, /swagger.json
+    and /api-docs return HTTP 404 on every market consumer host probed (HK, SG,
+    MY, ID, VN, PH). No spec exists anywhere in the estate.
+- id: asyncapi
+  conforms: false
+  evidence: No event catalogue, webhook reference, streaming surface or AsyncAPI document is published.
+- id: graphql
+  conforms: false
+  evidence: >-
+    /graphql returns HTTP 404 on www.prudentialplc.com and on every market
+    consumer host probed. No GraphQL surface is documented.
+- id: grpc
+  conforms: false
+  evidence: >-
+    No .proto is published on any Prudential plc property. The single public repo
+    in the first-party GitHub org (PrudentialCorporationAsia/gradle-sassign-plugin)
+    is a Gradle code-signing plugin.
+- id: rest
+  conforms: false
+  evidence: >-
+    No public REST API, base URL or reference documentation is published. Not
+    asserted either way for partner-gated or internal systems.
+- id: oauth2
+  conforms: false
+  evidence: >-
+    No OAuth 2.0 authorization server, client model, token endpoint or scope
+    reference is published. /.well-known/oauth-authorization-server returns 404
+    on every host probed.
+- id: openid-connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returns HTTP 404 on every host probed.
+- id: rfc8414-authorization-server-metadata
+  conforms: false
+  evidence: /.well-known/oauth-authorization-server -> 404 on prudentialplc.com and all market hosts.
+- id: rfc9728-protected-resource-metadata
+  conforms: false
+  evidence: /.well-known/oauth-protected-resource -> 404 on prudentialplc.com and all market hosts.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: >-
+    /.well-known/security.txt returns HTTP 404 on www.prudentialplc.com,
+    prudentialplc.com and every market consumer host. The only 200 was on
+    www.pruworks.com, which is a blanket catch-all that returns the same lander
+    stub for a deliberately bogus path.
+- id: rfc9727-api-catalog
+  conforms: false
+  evidence: /.well-known/api-catalog -> 404 everywhere probed (200 on pruworks.com is the catch-all stub).
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No API and therefore no error contract; no application/problem+json observed anywhere.
+- id: rfc8594-sunset-header
+  conforms: false
+  evidence: No API, no deprecation policy and no Sunset/Deprecation header contract is published.
+- id: llms-txt
+  conforms: true
+  evidence: >-
+    Six market operating companies publish real first-party llms.txt documents -
+    Prudential Hong Kong (46,557 bytes), Prudential Singapore (41,976), Prudential
+    Vietnam (19,914), Prudential BSN Takaful Malaysia (10,585), Prudential
+    Indonesia (7,113) and Pru Life UK Philippines (2,655). All six follow the
+    llms.txt convention (H1/heading, summary, sectioned markdown link lists),
+    though only Singapore and the Philippines use the strict H1 + blockquote form.
+    The corporate holding-company domain publishes none.
+  artifact: llms/_index.yml
+- id: ai-txt
+  conforms: false
+  evidence: /ai.txt returns HTTP 404 on the corporate host and on all six llms.txt-publishing hosts.
+- id: aipref
+  conforms: false
+  evidence: >-
+    No IETF AIPREF signal, Content-Signal header or /.well-known/ preference
+    document exists. Prudential Vietnam's llms.txt does carry an ad-hoc
+    per-user-agent "Bot Access Policy" (Allow-Training / Allow-Retrieval, all yes,
+    for gptbot, claudebot, google-extended, perplexitybot and six others), which
+    is a real consent declaration but not the AIPREF vocabulary.
+- id: acord
+  conforms: false
+  evidence: >-
+    No ACORD, AL3, ACORD XML, "ACORD certified", NGDS or ACORD Data Standards
+    reference was found on prudentialplc.com, on the group technology strategy
+    page, or in any Prudential plc newsroom item. No IVANS, Applied Epic or
+    Vertafore reference either - the group writes no US business after the 2021
+    Jackson demerger, and IVANS is a US property-and-casualty agency channel.
+    ACORD's Life & Annuity and Asia-Pacific standards would be applicable to this
+    book, but no first-party evidence of implementation exists.
+- id: sgfindex
+  conforms: false
+  evidence: >-
+    Prudential Singapore's own llms.txt links https://www.prudential.com.sg/sgfindex,
+    which now returns HTTP 404 (as does /services/sgfindex). SGFinDex is
+    Singapore's MAS/GovTech consented financial-data exchange and is the closest
+    thing to an open-data regime touching this group, but no live first-party page
+    or integration surface was confirmed, so this is recorded as unevidenced
+    rather than conformant.
+- id: hk-mpf-eMPF
+  conforms: false
+  evidence: >-
+    Prudential Hong Kong administers Mandatory Provident Fund schemes, which are
+    being centralised onto the Hong Kong eMPF Platform, but no first-party
+    Prudential technical or API description of that integration is published.
+- id: responsible-ai-governance
+  conforms: true
+  evidence: >-
+    https://www.prudentialplc.com/en/site-services/responsible-ai-at-prudential/
+    publishes five named AI Ethics Principles (Value; Transparency and
+    explainability; Fairness; Accountability and responsibility; Compliance),
+    states they apply to both first-party and third-party solutions, and names an
+    AI Governance Working Group of senior leaders across customer functions,
+    operations, data science and risk management performing risk-based evaluation
+    of AI initiatives. This is a published governance posture, not a technical
+    conformance claim.
+certifications:
+  published: false
+  note: >-
+    No SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP or CSA STAR certification is
+    published on any Prudential plc surface, and no trust centre exists
+    (trust.prudentialplc.com and security.prudentialplc.com do not resolve). The
+    group's assurance disclosures are regulatory and financial - Hong Kong
+    Insurance Authority D-SII designation, group solvency and annual reporting -
+    not information-security certifications. No `Compliance` pointer is emitted,
+    because there is no published compliance programme to point at.

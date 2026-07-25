@@ -1,0 +1,107 @@
+generated: '2026-07-25'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org/-/v1/search?text=prudential),
+  pypi.org/pypi/prudential/json, and the GitHub REST API for
+  orgs/PrudentialCorporationAsia, orgs/prudential and orgs/pru-rt, 2026-07-25
+note: >-
+  Prudential plc ships no client libraries, because it ships no API. Zero
+  first-party SDKs exist on any public registry. The `packages` list is
+  deliberately empty and no `SDKs` pointer is emitted in apis.yml. What the
+  registries DO contain is a set of Prudential-named npm scopes that are NOT
+  attributable to this company - they are recorded below so a later enrichment
+  round does not mistake them for first-party SDKs and wrongly award SDK credit.
+packages: []
+first_party_repositories:
+- org: https://github.com/PrudentialCorporationAsia
+  status: 200
+  description: >-
+    The only confirmed first-party GitHub organization - "This is the GitHub page
+    for public projects created by Prudential Corporation Asia".
+  public_repos: 1
+  repos:
+  - name: gradle-sassign-plugin
+    url: https://github.com/PrudentialCorporationAsia/gradle-sassign-plugin
+    language: Java
+    description: A Gradle plugin to sign files using Symantec's Secure App Service.
+    is_api_client: false
+    published_to_registry: false
+    note: >-
+      An internal build-tooling plugin for code signing. Not an API client
+      library, not published to Maven Central or the Gradle Plugin Portal under a
+      Prudential coordinate that could be verified.
+- org: https://github.com/prudentialplc
+  status: 404
+  note: No such GitHub organization.
+unattributable_lookalikes:
+  note: >-
+    Registry entries whose names contain "prudential" but which could not be tied
+    to Prudential plc. None is recorded as a package, and none is marked official.
+  entries:
+  - registry: npm
+    name: '@prudential/react-native-contacts-wrapper'
+    publisher: jasonnathan
+    declared_repository: https://github.com/prudential/react-native-contacts-wrapper
+    official: false
+    reason: >-
+      A fork of a community React Native library. The declared backing GitHub
+      organization `prudential` does not exist (GitHub API returns no org). No
+      Prudential plc attribution of any kind.
+  - registry: npm
+    name: '@prudential/react-native-datepicker'
+    publisher: jasonnathan
+    declared_repository: https://github.com/prudential/react-native-datepicker
+    official: false
+    reason: Same publisher and same non-existent backing org as above.
+  - registry: npm
+    name: '@pru-rt/react-native-contacts-wrapper'
+    publisher: jasonnathan
+    declared_repository: https://github.com/pru-rt/react-native-contacts-wrapper
+    official: false
+    reason: Same publisher; the `pru-rt` GitHub organization also does not exist.
+  - registry: npm
+    name: '@prudential-cambodia/react-native-camera'
+    publisher: phokchanrithisak
+    declared_repository: https://github.com/xpcrts/react-native-ocr
+    official: false
+    reason: >-
+      A republished copy of the community react-native-camera component under an
+      individual's account, pointing at an unrelated third-party repository. Not a
+      Prudential Cambodia corporate publication.
+  - registry: npm
+    name: '@prudential-cambodia/react-native-sunmi-v2-printer'
+    publisher: phokchanrithisak
+    declared_repository: https://github.com/suraneti/react-native-sunmi-v2-printer
+    official: false
+    reason: Same individual publisher, same pattern - a republished third-party printer module.
+  - registry: npm
+    name: '@ika.agent.prudential/encryption'
+    publisher: ika.agent.prudential
+    official: false
+    reason: >-
+      Published by an individual-looking account with no description, no
+      repository and no homepage. Unverifiable; almost certainly an agent's
+      personal utility rather than a company release.
+  - registry: npm
+    name: '@n8n-dev/n8n-nodes-apisetu-gov-iciciprulife'
+    official: false
+    reason: >-
+      A third-party n8n community node for the Indian government API Setu
+      endpoint of ICICI Prudential Life. ICICI Prudential Life is an Indian joint
+      venture, the node is not published by any Prudential entity, and API Setu is
+      a Government of India platform.
+registries_probed:
+- {registry: npm, query: prudential, first_party_hits: 0}
+- {registry: pypi, query: prudential, status: 404, first_party_hits: 0}
+- {registry: maven-central, first_party_hits: 0, note: No group id under a Prudential coordinate was found.}
+- {registry: nuget, first_party_hits: 0}
+- {registry: rubygems, first_party_hits: 0}
+- {registry: packagist, first_party_hits: 0}
+- {registry: crates.io, first_party_hits: 0}
+- {registry: pkg.go.dev, first_party_hits: 0}
+homonym_warning: >-
+  Do not resolve SDK searches for "Prudential" onto this record. Prudential
+  Financial, Inc. (Newark, NJ, NYSE: PRU) is a separate company with a real
+  developer portal at https://developers.prudential.com/ and is catalogued in this
+  network as `prudential-financial`. Any Prudential client library found in a
+  registry should be checked against that company first.

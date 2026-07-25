@@ -1,0 +1,100 @@
+generated: '2026-07-25'
+method: searched
+source: live probes 2026-07-25 of Prudential plc corporate, market and status hosts
+note: >-
+  Prudential plc runs no public API, so there is no API lifecycle to record. Every
+  field below is a probe result or a first-party page, not an assumption. What the
+  group does publish on a disciplined, dated cadence is CORPORATE lifecycle - a
+  financial calendar, results, stock-exchange announcements and a newsroom - and
+  that is captured under corporate_cadence so a later round does not mistake it
+  for an API changelog.
+versioning:
+  scheme: null
+  current: null
+  policy_url: null
+  documented: false
+  evidence: >-
+    No API exists and no version identifier or versioning policy appears anywhere
+    on any Prudential plc property.
+deprecation:
+  policy_url: null
+  documented: false
+  sunset_header: unknown
+  deprecation_header: unknown
+  evidence: >-
+    No deprecation or sunset policy (RFC 8594) is published. Nothing to deprecate -
+    no public interface has ever been announced.
+sla:
+  url: null
+  uptime_target: null
+  documented: false
+  evidence: >-
+    No API service-level agreement is published. Partner integrations run under
+    bancassurance and distribution contracts, which are commercial and not public.
+status_page:
+  url: null
+  documented: false
+  probes:
+  - {url: 'https://status.prudentialplc.com', status: '000', note: DNS did not resolve}
+  - {url: 'https://status.prudential.com.hk', status: '000', note: DNS did not resolve}
+  - {url: 'https://status.prudential.com.sg', status: '000', note: DNS did not resolve}
+  - {url: 'https://prudential.statuspage.io', status: 500, note: Atlassian Statuspage error, no Prudential page provisioned}
+  evidence: No status page, uptime dashboard or incident feed exists for any Prudential plc surface.
+changelog:
+  url: null
+  documented: false
+  evidence: >-
+    No dated API changelog or release-notes feed is published. Product and company
+    announcements appear in the corporate newsroom
+    (https://www.prudentialplc.com/en/newsroom/), which is not an API changelog.
+roadmap:
+  url: null
+  documented: false
+  evidence: >-
+    No public technology or API roadmap. The group technology strategy page
+    describes intent (AI, automation, data, cloud, a global AI Lab) without dates,
+    deliverables or interfaces.
+deprecated_operations: []
+corporate_cadence:
+  note: >-
+    Not an API lifecycle. Recorded because it is the only dated, structured
+    publishing cadence this company operates, and because a reader looking for
+    "what changed" will land here.
+  financial_calendar: https://www.prudentialplc.com/en/investors/financial-calendar/
+  results_and_reports: https://www.prudentialplc.com/en/investors/results-and-reports/results-and-business-performance-updates/
+  stock_exchange_announcements: https://www.prudentialplc.com/en/investors/latest-stock-exchange-announcements/
+  newsroom: https://www.prudentialplc.com/en/newsroom/
+  listings: [LSE PRU, HKEX 2378, SGX K6S, NYSE PUK]
+milestones:
+- date: '2019-10-21'
+  event: >-
+    Prudential plc demerges its UK and Europe business as M&G plc. pru.co.uk,
+    pruadviser.co.uk and Prudential Assurance Company Limited leave the group -
+    the reason no UK "Pru" consumer or adviser surface belongs to this record.
+  source: https://www.prudentialplc.com/en/investors/shareholder-centre/shareholder-information-and-corporate-actions/corporate-actions-governance/historical-information/demerger-of-m-g-plc/
+- date: '2021-09-13'
+  event: >-
+    Prudential plc demerges its US business as Jackson Financial, ending the
+    group's US book - and with it any reason to implement the US ACORD/IVANS
+    agency-download seam.
+  source: https://www.prudentialplc.com/en/investors/shareholder-centre/shareholder-information-and-corporate-actions/corporate-actions-governance/historical-information/demerger-of-jackson/
+- date: '2022-11'
+  event: >-
+    Prudential plc and Google Cloud announce a strategic partnership to make
+    healthcare and financial protection more accessible across Asia and Africa,
+    later extended to generative AI for medical claims adjudication. An internal
+    process programme - no external API, SDK or developer surface resulted.
+  source: https://www.prudentialplc.com/en/newsroom/company-news/2022/prudential-plc-and-google-cloud-announce-strategic-partnership-to-make-healthcare-and-financial-security-more-accessible-across-asia-and-africa/
+- date: '2023-07'
+  event: >-
+    MOVEit cyber security incident disclosed for the Malaysia business - the
+    group's most prominent public security event, disclosed through the newsroom
+    rather than through any security or trust surface, since none exists.
+  source: https://www.prudentialplc.com/en/newsroom/company-news/2023/moveit-cyber-security-incident-malaysia/
+- date: '2026-07-25'
+  event: >-
+    API Evangelist harvests six first-party llms.txt documents from Prudential
+    market operating companies (HK, SG, ID, VN, PH, PruBSN MY) - the group's first
+    machine-readable agent-facing artifacts, published without any accompanying
+    API.
+  source: llms/_index.yml

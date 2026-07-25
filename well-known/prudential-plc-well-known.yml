@@ -1,0 +1,165 @@
+generated: '2026-07-25'
+method: searched
+source: live /.well-known/ and root-discovery probes across every resolvable Prudential plc host, 2026-07-25
+note: >-
+  Prudential plc publishes no /.well-known/ discovery document of any kind, on
+  the corporate domain or on any of its market operating-company domains. Every
+  path below was probed live and every one is an honest 404 - absence is the
+  finding, and nothing was inferred. The one positive discovery result in the
+  whole estate is /llms.txt, which six market sites publish for real (harvested
+  verbatim in llms/ and indexed in llms/_index.yml); it is content grounding for
+  LLMs, not a machine-readable API contract.
+summary:
+  security_txt: false
+  api_catalog: false
+  openid_configuration: false
+  oauth_authorization_server: false
+  oauth_protected_resource: false
+  ai_plugin: false
+  llms_txt: true
+  ai_txt: false
+hosts:
+- host: https://www.prudentialplc.com
+  role: group holding company corporate site (Adobe Experience Manager)
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false, standard: RFC 9116}
+  - {path: /.well-known/api-catalog, status: 404, published: false, standard: RFC 9727}
+  - {path: /.well-known/ai-plugin.json, status: 404, published: false}
+  - {path: /.well-known/openid-configuration, status: 404, published: false}
+  - {path: /.well-known/oauth-authorization-server, status: 404, published: false, standard: RFC 8414}
+  - {path: /.well-known/oauth-protected-resource, status: 404, published: false, standard: RFC 9728}
+  - {path: /llms.txt, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - path: /robots.txt
+    status: 200
+    published: true
+    note: >-
+      Real robots.txt. A single "User-Agent: *" group that disallows only error
+      pages, backup pages and search-result pages, then declares
+      Sitemap: https://www.prudentialplc.com/sitemap.xml. No AI or LLM crawler
+      directives, no API or developer paths.
+  - path: /sitemap.xml
+    status: 200
+    published: true
+    note: >-
+      Sitemap index of four sitemaps (en, zh-hant, zh-cn and an AEM hk sitemap).
+      The English sitemap enumerates 457 URLs; none is an API, developer or
+      integration page.
+- host: https://prudentialplc.com
+  role: apex redirect of the corporate site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /.well-known/ai-plugin.json, status: 404, published: false}
+  - {path: /.well-known/openid-configuration, status: 404, published: false}
+  - {path: /.well-known/oauth-authorization-server, status: 404, published: false}
+  - {path: /.well-known/oauth-protected-resource, status: 404, published: false}
+- host: https://www.prudential.com.hk
+  role: Prudential Hong Kong Limited consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - {path: /llms.txt, status: 200, published: true, file: ../llms/prudential-plc-hk-llms.txt}
+- host: https://www.prudential.com.sg
+  role: Prudential Assurance Company Singapore consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - {path: /llms.txt, status: 200, published: true, file: ../llms/prudential-plc-sg-llms.txt}
+- host: https://www.prudential.co.id
+  role: PT Prudential Life Assurance consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - {path: /llms.txt, status: 200, published: true, file: ../llms/prudential-plc-id-llms.txt}
+- host: https://www.prudential.com.vn
+  role: Prudential Vietnam Assurance consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - path: /llms.txt
+    status: 200
+    published: true
+    file: ../llms/prudential-plc-vn-llms.txt
+    note: Carries a per-user-agent Bot Access Policy (Allow-Training / Allow-Retrieval, all yes).
+- host: https://www.prulifeuk.com.ph
+  role: Pru Life UK consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - {path: /llms.txt, status: 200, published: true, file: ../llms/prudential-plc-ph-llms.txt}
+- host: https://www.prubsn.com.my
+  role: Prudential BSN Takaful Berhad site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /ai.txt, status: 404, published: false}
+  - {path: /llms.txt, status: 200, published: true, file: ../llms/prudential-plc-my-prubsn-llms.txt}
+- host: https://www.prudential.com.my
+  role: Prudential Assurance Malaysia consumer site
+  documents:
+  - {path: /.well-known/security.txt, status: 404, published: false}
+  - {path: /.well-known/api-catalog, status: 404, published: false}
+  - {path: /openapi.json, status: 404, published: false}
+  - {path: /swagger.json, status: 404, published: false}
+  - {path: /api-docs, status: 404, published: false}
+  - {path: /graphql, status: 404, published: false}
+  - path: /llms.txt
+    status: 200
+    published: false
+    note: >-
+      Returns the 8-byte literal string "llms.txt", not a document. Same Adobe
+      Experience Manager path-echo quirk seen on prudential.co.th,
+      pcalife.com.tw, prudential.com.mm and prudentialsyariah.co.id. A 200 here
+      is NOT a published artifact.
+- host: https://www.pruworks.com
+  role: PRUworks SME employee-benefits property
+  catch_all: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    published: false
+    note: >-
+      Not a real document. Every path on this host, including a deliberately
+      bogus /.well-known/zzz-does-not-exist-12345, returns HTTP 200 with the same
+      109-byte lander redirect stub
+      (<script>window.onload=function(){window.location.href="/lander"}</script>).
+      Blanket catch-all - path existence cannot be inferred from a 200 here.
+  - {path: /.well-known/api-catalog, status: 200, published: false, note: Same lander stub.}
+  - {path: /.well-known/zzz-does-not-exist-12345, status: 200, published: false, note: Control probe proving the catch-all.}
+consent_and_ai_preferences:
+  aipref: false
+  content_signals: false
+  web_bot_auth: false
+  http_message_signatures: false
+  robots_ai_directives: false
+  llms_txt_bot_policy:
+    present: true
+    host: https://www.prudential.com.vn
+    vocabulary: ad-hoc, defined inside llms.txt (not IETF AIPREF, not a /.well-known/ document)
+    agents: [gptbot, claudebot, google-extended, perplexitybot, neevabot, youbot, ccbot, duckduckbot, yandexbot, archive.org_bot]
+    stance: Allow-Training yes, Allow-Retrieval yes for every listed agent

@@ -35,7 +35,18 @@ description: >-
   terms and none exposes a developer programme, SDK or public API. No ACORD,
   AL3, ACORD XML or NGDS reference was found anywhere in Prudential plc's
   public estate. Recorded honestly as a large carrier with a fully
-  partner-gated, non-public integration surface.
+  partner-gated, non-public integration surface. One genuine machine-readable
+  surface does exist, and it is not an API: six of the group's market operating
+  companies - Prudential Hong Kong, Prudential Singapore, Prudential Indonesia,
+  Prudential Vietnam, Pru Life UK in the Philippines and Prudential BSN Takaful
+  in Malaysia - publish real first-party llms.txt documents for grounding large
+  language models, with Prudential Vietnam declaring a per-user-agent bot access
+  policy for gptbot, claudebot, google-extended, perplexitybot and six other
+  crawlers. The corporate domain publishes none. Underneath that, the group runs
+  a visibly centralised security posture: TLS 1.3 and HSTS on every market host,
+  and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report
+  mailbox across all seven domains, at p=reject on the corporate domain and
+  p=quarantine in the markets, with no CAA record anywhere.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Insurance
@@ -49,11 +60,55 @@ tags:
 - Bancassurance
 - Asia
 - Africa
+- Hong Kong
+- Singapore
+- Malaysia
+- Indonesia
+- Vietnam
+- Philippines
+- Eastspring
+- Responsible AI
+- llms.txt
 created: '2026-07-25'
 modified: '2026-07-25'
 specificationVersion: '0.19'
 apis: []
 common:
+- type: DomainSecurity
+  url: security/prudential-plc-domain-security.yml
+- type: WellKnown
+  name: Well-known discovery probe matrix
+  url: well-known/prudential-plc-well-known.yml
+- type: LLMsTxt
+  name: API Evangelist generated llms.txt for Prudential plc
+  url: llms/prudential-plc-llms.txt
+- type: LLMsTxt
+  name: Prudential Hong Kong llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-hk-llms.txt
+- type: LLMsTxt
+  name: Prudential Singapore llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-sg-llms.txt
+- type: LLMsTxt
+  name: Prudential Indonesia llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-id-llms.txt
+- type: LLMsTxt
+  name: Prudential Vietnam llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-vn-llms.txt
+- type: LLMsTxt
+  name: Pru Life UK llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-ph-llms.txt
+- type: LLMsTxt
+  name: Prudential BSN Takaful llms.txt (first-party, harvested verbatim)
+  url: llms/prudential-plc-my-prubsn-llms.txt
+- type: Conformance
+  name: Standards conformance assessment
+  url: conformance/prudential-plc-conformance.yml
+- type: Lifecycle
+  name: Lifecycle, versioning and publishing cadence
+  url: lifecycle/prudential-plc-lifecycle.yml
+- type: Packages
+  name: Client library search (no first-party SDKs exist)
+  url: packages/prudential-plc-packages.yml
 - type: Website
   url: https://www.prudentialplc.com/en/
 - type: About
@@ -76,6 +131,34 @@ common:
   url: https://github.com/PrudentialCorporationAsia
 - type: LinkedIn
   url: https://www.linkedin.com/company/prudentialplc
+- type: ResponsibleAI
+  name: Responsible AI at Prudential - AI ethics principles and AI Governance Working Group
+  url: https://www.prudentialplc.com/en/site-services/responsible-ai-at-prudential/
+- type: Policies
+  name: Corporate governance policies and statements
+  url: https://www.prudentialplc.com/en/about-us/corporate-governance-and-corporate-actions/policies-and-statements/
+- type: Careers
+  url: https://www.prudentialplc.com/en/careers/overview/
+- type: Sitemap
+  url: https://www.prudentialplc.com/sitemap.xml
+- type: Website
+  name: Prudential Hong Kong
+  url: https://www.prudential.com.hk/
+- type: Website
+  name: Prudential Singapore
+  url: https://www.prudential.com.sg/
+- type: Website
+  name: Prudential Indonesia
+  url: https://www.prudential.co.id/
+- type: Website
+  name: Prudential Vietnam
+  url: https://www.prudential.com.vn/
+- type: Website
+  name: Pru Life UK (Philippines)
+  url: https://www.prulifeuk.com.ph/
+- type: Website
+  name: Prudential BSN Takaful (Malaysia)
+  url: https://www.prubsn.com.my/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
