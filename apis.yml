@@ -47,6 +47,17 @@ description: >-
   and one shared PowerDMARC/PowerSPF tenant with a common aggregate-report
   mailbox across all seven domains, at p=reject on the corporate domain and
   p=quarantine in the markets, with no CAA record anywhere.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Insurance
