@@ -1,5 +1,8 @@
 aid: prudential-plc
 url: https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Its API posture is that there is no public API posture."
 name: Prudential plc
 kind: company
 description: >-
