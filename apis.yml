@@ -3,7 +3,7 @@ url: https://raw.githubusercontent.com/api-evangelist/prudential-plc/refs/heads/
 x-api-posture: no-product-api
 x-api-posture-basis: observed
 x-api-posture-note: "Its API posture is that there is no public API posture."
-name: Prudential plc
+name: Prudential
 kind: company
 description: >-
   Prudential plc is a life and health insurance and asset management group
@@ -209,3 +209,4 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+x-legal-name: Prudential plc
